@@ -1,0 +1,98 @@
+.sidebar {
+  background-color: $color-ebony-clay;
+  width: 220px;
+  position: fixed;
+  left: 0;
+  top: 56px;
+  bottom: 0;
+  z-index: 998;
+  padding-top: 20px;
+  overflow-Y: auto;
+  ul {
+    position: relative;
+    li {
+      a {
+        min-height: 44px;
+        border-left: 5px solid $color-ebony-clay;
+        display: flex;
+        align-items: center;
+        padding-left: 28px;
+        padding-bottom: 12px;
+        padding-top: 12px;
+        span {
+          line-height: 1;
+          color: $color-iron;
+          font-size: 14px;
+          &:first-child {
+            width: 25px;
+            img {}
+          }
+          &:last-child {
+            flex: 1;
+          }
+          .link-app {
+            font-size: 13px;
+            color: $color-picton-blue;
+              display: block;
+            width: 100%;
+            margin-top: 8px;
+          }
+        }
+        &:hover {
+          border-left: 5px solid $color-bali-hai;
+          background-color: $color-oxford-blue;
+          span {
+            color: $color-athens-gray;
+          }
+        }
+      }
+      &.active {
+        a {
+          border-left: 5px solid $color-bali-hai;
+          background-color: $color-oxford-blue;
+          span {
+            color: $color-athens-gray;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+    &.second {
+      margin-top: 100px;
+      padding-top: 15px;
+      &::before {
+        position: absolute;
+        content: "";
+        height: 1px;
+        background-color: #353f58;
+        left: 30px;
+        right: 26px;
+        top: 0;
+      }
+    }
+    &.third {
+      margin-top: 18px;
+      padding-top: 15px;
+      padding-bottom: 17px;
+      margin-bottom: 19px;
+      &::before {
+        position: absolute;
+        content: "";
+        height: 1px;
+        background-color: #353f58;
+        left: 30px;
+        right: 26px;
+        top: 0;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        height: 1px;
+        background-color: #353f58;
+        left: 30px;
+        right: 26px;
+        bottom: 0;
+      }
+    }
+  }
+}
