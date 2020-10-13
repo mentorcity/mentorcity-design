@@ -1,0 +1,190 @@
+@import "variables";
+@import "mixins";
+.main.main__audiocall{
+    min-height: calc(100vh - 7.1rem);
+}
+
+
+.audiocall{
+    flex-grow: 1;
+
+    &__container{
+        height: 100%;
+        background-image: $call-gradient-color;
+
+        // height: calc(100% - 70px);
+
+    }
+
+    &__middle-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100% 
+    }
+
+    &__profile{
+        border-radius: 50%;
+        position: relative;
+        z-index: 3;
+        width: 20rem;
+        height: 20rem;
+        
+        img{
+            width: 100%;
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 5;
+        }
+
+        
+    }
+    &__desc{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 4rem;
+
+        h4{
+            font-weight: 700;
+            color: #ffffff;
+            font-size: 2rem;
+            text-transform: capitalize;
+        }   
+    }
+
+    &__timezone{
+        color: #ffffff;
+        font-size: 1.2rem;
+        padding-top: 0.7rem;
+    }
+
+    &__icons{
+        margin-top: 6rem;
+        display: flex;
+        align-items: center;
+        position: relative;
+        width: 100%;
+        justify-content: center;
+    }
+
+    &__icon{
+        background-color: rgba(255,255,255,0.4);
+        width: 6.2rem;
+        height: 6.2rem;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all .3s;
+
+        &:hover{
+            // background-color: darken(rgba(255,255,255,0.4),10%);
+            cursor: pointer;
+            // box-shadow: -1px 3px 22px -2px rgba(0,0,0,0.61);
+            box-shadow: -1px 3px 22px -2px rgba(0,0,0,0.48);
+            transform: translateY(-1px);
+        }
+
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+
+        &:first-child{
+            max-width: 4.2rem;
+            height: 4.2rem;
+        }
+
+        &:last-child{
+           max-width: 4.2rem;
+            height: 4.2rem;
+        }
+    }
+
+
+
+    
+}
+
+.audiocalling{
+    flex-grow: 1;
+    background: url(../img/call.bg.png) no-repeat;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+
+    // @media only screen and (max-width:768px){
+    //     background-size: contain;
+    // }
+
+    &__middle-container{
+        display: flex;
+        min-height: calc(100vh - 30rem);
+        align-items: flex-end;
+    }
+
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem;
+
+        p{
+            font-size: 1.6rem;
+            color: #ffffff;
+            margin-top: 0.5rem;
+            display: flex;
+            justify-content: center;
+            text-transform: capitalize;
+        }
+        
+    }
+
+    &__icon-stroke{
+        background-color: #ffffff;
+
+            path{
+                stroke: #556182;
+            }
+
+    }
+
+    &__img-wrap{
+        max-width: 10rem;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            height: 100%;
+
+        }
+    }
+
+    &__chat-icon{
+        position: absolute;
+        right: 7rem;
+
+        @media only screen and (max-width:850px) {
+            position: relative;
+            right: 0;
+
+            svg{
+                width: 4rem;
+            }
+        }
+       
+        &:hover{
+            cursor: pointer;
+            box-shadow: -1px 3px 22px -2px rgba(0, 0, 0, 0.48);
+            transform: translateY(-1px);
+        }
+    }
+
+
+}

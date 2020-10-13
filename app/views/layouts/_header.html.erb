@@ -1,24 +1,57 @@
-<!-- Header -->
-<div class="header">
-  <a href="#" class="logo">
-    <img src="/assets/logo.png" />
-  </a>
-  <div class="right">
-    <ul>
-      <li><a href="#" class="unread messages"><img src="/assets/icons/icon-message.svg" /></a></li>
-      <li><a href="#" class="unread notifications"><img src="/assets/icons/icon-notification.svg" /></a></li>
-      <li><a href="#" class="btn-outlined"><span class="available"></span><span>Available</span></a></li>
-      <li>
-        <div class="contact">
-          <div class="avatar">
-            <img src="/assets/avatar.png" />
-          </div>
-          <div class="info">
-            <div class="name">Sarah Mueller</div>
-            <div class="user-role">Member</div>
-          </div>
-        </div>
-      </li>
-    </ul>
+<!-- Top bar starts -->
+<header class="top-bar">
+  <div class="top-bar__logo">
+    <img src="/assets/main-logo.png" alt="main-logo" class="top-bar__img" />
   </div>
-</div>
+
+  <div class="top-bar__toggler">
+    <a href="#" class="top-bar__bars">
+      <img src="/assets/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
+    </a>
+
+    <a href="#" class="top-bar__close">
+      <img src="/assets/icons/topbar_icons/top-bar-close.svg" alt="close-icon" />
+    </a>
+  </div>
+
+  <div class="top-bar__side">
+    <div class="top-bar__notification">
+      <img src="/assets/icons/topbar_icons/top-bar-message.svg" alt="message-icon" class="top-bar__icon" />
+    </div>
+    <div class="top-bar__notification">
+      <img src="/assets/icons/topbar_icons/top-bar-notification.svg" alt="notification-icon" class="top-bar__icon" />
+    </div>
+    <div class="top-bar__btn-box">
+      <a href="" class="button button--available">
+        <img src="/assets/icons/topbar_icons/top-bar-available.svg" alt="available-icon" class="button__status" />
+
+        <span>Available</span>
+      </a>
+      <div class="dropdown-box">
+        <p class="dropdown-box__title">Set Your Availablity</p>
+        <div class="dropdown-box__state">
+          <img src="/assets/icons/topbar_icons/top-bar-available.svg" alt="available-icon" class="" />
+          Available <i class="fas fa-check"></i>
+        </div>
+        <div class="dropdown-box__state">
+          <img src="/assets/icons/topbar_icons/top-bar-unavailable.svg" alt="unavailable-icon" class="" />
+          Unavailable
+        </div>
+        <a href="" class="dropdown-box__settings">Advanced Settings</a>
+      </div>
+    </div>
+    <div class="profile">
+      <div class="profile__avatar-box">
+        <img src="/assets/icons/topbar_icons/top-bar-person.png" alt="profile-avatar" class="profile__avatar" />
+      </div>
+      <div class="profile__desc">
+        <h4 class="profile__title">Martin Blum</h4>
+        <p class="profile__detail">Member</p>
+      </div>
+      <div class="profile__arrow">
+        <img src="/assets/icons/down-arrow.svg" alt="down-arrow-icon" class="profile__arrow-icon" />
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Top bar ends -->

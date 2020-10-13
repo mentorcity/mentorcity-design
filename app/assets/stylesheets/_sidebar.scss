@@ -1,99 +1,115 @@
-@import '../../assets/stylesheets/variables';
-.sidebar {
-  background-color: $color-ebony-clay;
-  width: 220px;
-  position: fixed;
-  left: 0;
-  top: 56px;
-  bottom: 0;
-  z-index: 998;
-  padding-top: 20px;
-  overflow-Y: auto;
-  ul {
-    position: relative;
-    li {
-      a {
-        min-height: 44px;
-        border-left: 5px solid $color-ebony-clay;
-        display: flex;
-        align-items: center;
-        padding-left: 28px;
-        padding-bottom: 12px;
-        padding-top: 12px;
-        span {
-          line-height: 1;
-          color: $color-iron;
-          font-size: 14px;
-          &:first-child {
-            width: 25px;
-            img {}
-          }
-          &:last-child {
-            flex: 1;
-          }
-          .link-app {
-            font-size: 13px;
-            color: $color-picton-blue;
-              display: block;
-            width: 100%;
-            margin-top: 8px;
-          }
-        }
-        &:hover {
-          border-left: 5px solid $color-bali-hai;
-          background-color: $color-oxford-blue;
-          span {
-            color: $color-athens-gray;
-          }
-        }
-      }
-      &.active {
-        a {
-          border-left: 5px solid $color-bali-hai;
-          background-color: $color-oxford-blue;
-          span {
-            color: $color-athens-gray;
-            font-weight: bold;
-          }
-        }
-      }
-    }
-    &.second {
-      margin-top: 100px;
-      padding-top: 15px;
-      &::before {
-        position: absolute;
-        content: "";
-        height: 1px;
-        background-color: #353f58;
-        left: 30px;
-        right: 26px;
-        top: 0;
-      }
-    }
-    &.third {
-      margin-top: 18px;
-      padding-top: 15px;
-      padding-bottom: 17px;
-      margin-bottom: 19px;
-      &::before {
-        position: absolute;
-        content: "";
-        height: 1px;
-        background-color: #353f58;
-        left: 30px;
-        right: 26px;
-        top: 0;
-      }
-      &::after {
-        position: absolute;
-        content: "";
-        height: 1px;
-        background-color: #353f58;
-        left: 30px;
-        right: 26px;
-        bottom: 0;
-      }
-    }
-  }
+@import "variables";
+@import "mixins";
+.side-bar {
+	background-color: $dark-gray;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1rem 0;
+	width: 23.8rem;
+	// height: calc(100vh - 71px);
+	height: 100vh;
+	overflow-y: scroll;
+
+	position: fixed;
+	top: 7rem;
+	z-index: 5;
+	transition: transform 0.3s ease-in;
+
+	@media only screen and (max-width: 768px) {
+		transform: translateX(-100%);
+	}
+
+	&__list {
+		width: 100%;
+
+		&:first-child {
+			margin-bottom: 5.5rem;
+		}
+	}
+
+	&__item {
+		margin: 1rem 0;
+	}
+
+	&__link {
+		display: flex;
+		color: $border-color;
+		align-items: center;
+		padding-left: 2.5rem;
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+		font-size: 1.4rem;
+		font-weight: 400;
+		border-left: 5px solid transparent;
+		transition: all 0.3s;
+
+		& > *:first-child {
+			width: 2rem;
+			height: 2rem;
+			margin-right: 1rem;
+		}
+
+		&:hover {
+			color: #f6f7f9;
+			border-left: 5px solid $gray;
+			background-color: $sidebar-color;
+
+			.sidebar__link-icon {
+				filter: brightness(0) invert(1);
+			}
+		}
+	}
+
+	&__link-icon {
+		transition: all 1s;
+	}
+
+	&__link--app {
+		flex-wrap: wrap;
+
+		span {
+			color: #56ccf2;
+			margin-top: 1rem;
+			margin-left: 3rem;
+		}
+	}
+
+	&__bottom {
+		& > * {
+			position: relative;
+
+			&:before {
+				content: "";
+				display: block;
+				width: 80%;
+				margin: 0 auto;
+				height: 1px;
+				border-top: 1px solid $sidebar-color;
+			}
+		}
+
+		&:last-child {
+			margin-bottom: 8rem;
+		}
+	}
+
+	.active {
+		font-weight: bold;
+		color: #f6f7f9;
+		border-left: 5px solid $gray;
+		background: $sidebar-color;
+
+		.sidebar__link-icon {
+			filter: brightness(0) invert(1);
+		}
+	}
+
+	// scroll bar style for sidebar
+	@include scrollBar($border-color);
+}
+
+// toggle Event sidebar class
+.sidebar-transform {
+	transform: translateX(0) !important;
 }
