@@ -4,16 +4,12 @@ root 'home#index'
 
 
 
-resource :users do
+resources :users do
   member do
     get 'audio_call_1'
     get 'audio_call_2'
     get 'audio_calling_1'
     get 'audio_calling_4'
-    get 'dashboard_schedule_appointment_success'
-    get 'dashboard_simple'
-    get 'dashboard'
-    get 'editprofile'
     get 'message_chat_new'
     get 'message_chat'
     

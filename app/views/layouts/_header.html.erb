@@ -1,43 +1,22 @@
 <!-- Top bar starts -->
 <header class="top-bar">
-  <div class="top-bar__logo">
-    <img src="/assets/main-logo.png" alt="main-logo" class="top-bar__img" />
-  </div>
-
-  <div class="top-bar__toggler">
-    <a href="#" class="top-bar__bars">
-      <img src="/assets/icons/topbar_icons/top-bar-bars.svg" alt="bars-icon" />
-    </a>
-
-    <a href="#" class="top-bar__close">
-      <img src="/assets/icons/topbar_icons/top-bar-close.svg" alt="close-icon" />
-    </a>
-  </div>
+  <%= div_with_img({class: 'top-bar__logo'},{src: 'main-logo.png',alt: 'main-logo',img_cls: 'top-bar__img'} ) %>
+  <%= tag.div class: 'top-bar__toggler' do %>
+  
+    <%= link_with_img( {class: 'top-bar__bars'} , {src: 'icons/topbar_icons/top-bar-bars.svg',alt: 'bars icon'}) %>
+    <%= link_with_img( {class: 'top-bar__close'} , {src: 'icons/topbar_icons/top-bar-close.svg',alt: 'close icon'}) %>
+  <%end%>
 
   <div class="top-bar__side">
-    <div class="top-bar__notification">
-      <img src="/assets/icons/topbar_icons/top-bar-message.svg" alt="message-icon" class="top-bar__icon" />
-    </div>
-    <div class="top-bar__notification">
-      <img src="/assets/icons/topbar_icons/top-bar-notification.svg" alt="notification-icon" class="top-bar__icon" />
-    </div>
+    <%= div_with_img({class: 'top-bar__notification'},{src: 'icons/topbar_icons/top-bar-message.svg',alt: 'message-icon',class: 'top-bar__icon' } )%>
+    <%= div_with_img({class: 'top-bar__notification'},{src: 'icons/topbar_icons/top-bar-notification.svg',alt: 'notification icon',class: 'top-bar__icon' }) %>
     <div class="top-bar__btn-box">
-      <a href="" class="button button--available">
-        <img src="/assets/icons/topbar_icons/top-bar-available.svg" alt="available-icon" class="button__status" />
-
-        <span>Available</span>
-      </a>
+      <%= link_with_img({class: 'button button--available',text: '<span>Available</span>'},{src: 'icons/topbar_icons/top-bar-available.svg',alt: 'available-icon',class: 'button__status'}) %>
       <div class="dropdown-box">
         <p class="dropdown-box__title">Set Your Availablity</p>
-        <div class="dropdown-box__state">
-          <img src="/assets/icons/topbar_icons/top-bar-available.svg" alt="available-icon" class="" />
-          Available <i class="fas fa-check"></i>
-        </div>
-        <div class="dropdown-box__state">
-          <img src="/assets/icons/topbar_icons/top-bar-unavailable.svg" alt="unavailable-icon" class="" />
-          Unavailable
-        </div>
-        <a href="" class="dropdown-box__settings">Advanced Settings</a>
+        <%= div_with_img({class: 'dropdown-box__state',text: 'Available <i class="fas fa-check"></i>'},{src: 'icons/topbar_icons/top-bar-available.svg',alt: 'available-icon'}) %>
+        <%= div_with_img({class: 'dropdown-box__state',text: 'Unavailable'},{src: 'icons/topbar_icons/top-bar-unavailable.svg',alt: 'unavailable icon'}) %>
+        <%=link_to 'Advanced Settings', no_path,class: 'dropdown-box__settings' %>
       </div>
     </div>
     <div class="profile">
