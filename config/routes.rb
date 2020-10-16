@@ -5,13 +5,14 @@ root 'home#index'
 
 
 resources :users do
-  member do
+  collection do
     get 'audio_call_1'
     get 'audio_call_2'
     get 'audio_calling_1'
     get 'audio_calling_4'
     get 'message_chat_new'
     get 'message_chat'
+
     
   end
 end
