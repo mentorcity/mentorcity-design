@@ -1,45 +1,17 @@
 <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-    <div class="editprofile__sidebar">
-        <!-- Profile image -->
-
-        <div class="editprofile__userimage">
-            <figure>
-                
-               <%= link_to '#', class:'editprofile__edit-avatar' do %>
-                    <%= display_img({src: '/assets/icons/profile-edit-icon.svg', alt: '', class: 'profile-edit-icon'})%>
-                <% end %>
-                <%= display_img({src: '/assets/form-avatar.png', alt: '', class: 'editprofile__avatar'})%>
-            </figure>
-        </div>
-
-        <!-- Side tabs -->
-        <div class="editprofile__navigation">
-            <ul class="nav nav-tabs editprofile__menu" id="myTab" role="tablist">
-                <li class="nav-item editprofile__menu-item">
-                    <%= link_to 'Profile', '#profile', { class: 'nav-link active', 'data-toggle': 'tab', id: 'home-tab', role: 'tab', "aria-controls": 'home', "aria-selected": 'true'} %>
-                </li>
-
-                <li class="nav-item editprofile__menu-item">
-                    <%= link_to 'Employment', '#employment', { class: 'nav-link', 'data-toggle': 'tab', id: 'profile-tab', role: 'tab', "aria-controls": 'profile', "aria-selected": 'false'} %>
-                </li>
-
-                <li class="nav-item editprofile__menu-item">
-                    <%= link_to 'Achievements', '#achievements', { class: 'nav-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
-                </li>
-
-                <li class="nav-item editprofile__menu-item">
-                    <%= link_to 'Skills', '#skills', { class: 'nav-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
-                </li>
-                
-                <li class="nav-item editprofile__menu-item">
-                    <%= link_to 'Competencies', '#competencies', { class: 'nav-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
-                </li>
-                
-                <li class="nav-item editprofile__menu-item">
-                    <%= link_to 'Account Settings', '#account-settings', { class: 'nav-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
-                </li>
-
-            </ul>
-        </div>
+  <div class="editprofile__sidebar">
+    <!-- Profile image -->
+    <div class="editprofile__userimage">
+      <figure>
+       <%= link_to '#', class:'editprofile__edit-avatar' do %>
+        <%= display_img({src: '/assets/icons/profile-edit-icon.svg', alt: '', class: 'profile-edit-icon'})%>
+        <% end %>
+        <%= display_img({src: '/assets/form-avatar.png', alt: '', class: 'editprofile__avatar'})%>
+      </figure>
     </div>
+
+    <!-- Side tabs  -->
+    <%= render 'users/edit_profile/side_tabs'%>
+
+  </div>
 </div>

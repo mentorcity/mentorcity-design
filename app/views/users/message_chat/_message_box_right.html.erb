@@ -1,59 +1,34 @@
 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-9">
-<div class="messagebox">
-<div class="messagebox__header">
-	<div class="messagebox__header-left">
-	
-		<%= div_with_img({class: 'messagebox__avatar'},{src: '/assets/chat-profile-3.png', alt:'chatbox-profile'}) %>
-
-		<div class="messagebox__info">
-			<h4>Sarah Mueller</h4>
-			
-			<%= link_to "@saramueller", "#" %>
-		
+	<div class="messagebox">
+		<%= render 'users/message_chat/chat_box_header'%>
+		<div class="messagebox__conversation">
+			<div class="messagebox__date">Thuerday, 20.07.2020</div>
+				<div class="messagebox__message-wrap">
+					<%=link_with_img({href: '#'},{src: '/assets/chat-profile-3.png', alt: 'messagebox-image'}) %>
+					<div class="messagebox__desc"><p>hi martin</p></div>
+				</div>
+				<div class="messagebox__message-wrap-right">
+					<div class="messagebox__desc-right"><p>Hi Sarah, how are you doing ?</p></div>
+						<%=link_with_img({href: '#'},{src: '/assets/icons/topbar_icons/top-bar-person.png', alt: 'messagebox-image'}) %>
+				</div>
+				<div class="messagebox__message-wrap">
+					<%=link_with_img({href: '#'},{src: '/assets/chat-profile-3.png', alt: 'messagebox-image'}) %>
+					<div class="messagebox__desc"><p>hi martin</p></div>
+				</div>
+				<div class="messagebox__message-wrap">
+					<%=link_with_img({href: '#'},{src: '/assets/chat-profile-3.png', alt: 'messagebox-image'}) %>
+					<div class="messagebox__desc"><p>hi martin</p></div>
+				</div>
+				<div class="messagebox__message-wrap-right">
+					<div class="messagebox__desc-right"><p>Hi Sarah, how are you doing ?</p></div>
+					<%=link_with_img({href: '#'},{src: '/assets/icons/topbar_icons/top-bar-person.png', alt: 'messagebox-image'}) %>
+				</div>
+				<div class="messagebox__message-wrap">
+					<%=link_with_img({href: '#'},{src: '/assets/chat-profile-3.png', alt: 'messagebox-image'}) %>
+				<div class="messagebox__desc"><p>I am doing well, thanks</p></div>
+			</div>
 		</div>
-	</div>
-	<div class="messagebox__header-right">
-		<%=link_with_img({href: '#', class: 'vediocall-icon'},{src: '/assets/icons/chat_icons/vediocall-con.svg', alt: 'vediocall-icon'}) %>
-		<%=link_with_img({href: '#', class: 'audiocall-icon'},{src: '/assets/icons/chat_icons/audiocall-icon.svg', alt: 'audiocall-icon'}) %>
-	</div>
-</div>
+		<%= render 'users/message_chat/message_box_send'%>
 
-<div class="messagebox__conversation">
-	<div class="messagebox__date">Thuerday, 20.07.2020</div>
-
-	<div class="messagebox__message-wrap">
-		<%=link_with_img({href: '#'},{src: '/assets/chat-profile-3.png', alt: 'messagebox-image'}) %>
-		<div class="messagebox__desc"><p>hi martin</p></div>
-	</div>
-
-	<div class="messagebox__message-wrap-right">
-		<div class="messagebox__desc-right"><p>Hi Sarah, how are you doing ?</p></div>
-		
-		<%=link_with_img({href: '#'},{src: '/assets/icons/topbar_icons/top-bar-person.png', alt: 'messagebox-image'}) %>
-
-	</div>
-
-	<div class="messagebox__message-wrap">
-		<%=link_with_img({href: '#'},{src: '/assets/chat-profile-3.png', alt: 'messagebox-image'}) %>
-
-		
-		<div class="messagebox__desc"><p>hi martin</p></div>
-	</div>
-
-	<div class="messagebox__message-wrap">
-		<%=link_with_img({href: '#'},{src: '/assets/chat-profile-3.png', alt: 'messagebox-image'}) %>
-		<div class="messagebox__desc"><p>hi martin</p></div>
-	</div>
-
-	<div class="messagebox__message-wrap-right">
-		<div class="messagebox__desc-right"><p>Hi Sarah, how are you doing ?</p></div>
-		
-		<%=link_with_img({href: '#'},{src: '/assets/icons/topbar_icons/top-bar-person.png', alt: 'messagebox-image'}) %>
-
-	</div>
-
-	<div class="messagebox__message-wrap">
-		<%=link_with_img({href: '#'},{src: '/assets/chat-profile-3.png', alt: 'messagebox-image'}) %>
-		<div class="messagebox__desc"><p>I am doing well, thanks</p></div>
 	</div>
 </div>

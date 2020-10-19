@@ -1,0 +1,29 @@
+<!-- Side tabs -->
+<div class="editprofile__navigation">
+  <ul class="nav nav-tabs editprofile__menu" id="myTab" role="tablist">
+    <li class="nav-item editprofile__menu-item">
+      <%= link_to 'Profile', '#profile', { class: 'nav-link active', 'data-toggle': 'tab', id: 'home-tab', role: 'tab', "aria-controls": 'home', "aria-selected": 'true'} %>
+    </li>
+
+    <li class="nav-item editprofile__menu-item">
+      <%= link_to 'Employment', '#employment', { class: 'nav-link', 'data-toggle': 'tab', id: 'profile-tab', role: 'tab', "aria-controls": 'profile', "aria-selected": 'false'} %>
+    </li>
+
+    <li class="nav-item editprofile__menu-item">
+      <%= link_to 'Achievements', '#achievements', { class: 'nav-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
+    </li>
+
+    <li class="nav-item editprofile__menu-item">
+      <%= link_to 'Skills', '#skills', { class: 'nav-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
+    </li>
+    
+    <li class="nav-item editprofile__menu-item">
+      <%= link_to 'Competencies', '#competencies', { class: 'nav-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
+    </li>
+    
+    <li class="nav-item editprofile__menu-item">
+      <%= link_to 'Account Settings', '#account-settings', { class: 'nav-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
+    </li>
+
+  </ul>
+</div>

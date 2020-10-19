@@ -1,0 +1,11 @@
+<ul class="nav nav-tabs setting__tabs-menu" id="myTab" role="tablist">
+  <li class="nav-item setting__tabs-item">
+    <%= link_to 'Basic', '#basic', { class: 'nav-link setting__tabs-link active', 'data-toggle': 'tab', id: 'home-tab', role: 'tab', "aria-controls": 'tab', "aria-selected": 'true'} %>
+  </li>
+  <li class="nav-item setting__tabs-item">
+    <%= link_to 'Communication', '#communication', { class: 'nav-link setting__tabs-link', 'data-toggle': 'tab', id: 'profile-tab', role: 'tab', "aria-controls": 'profile', "aria-selected": 'false'} %>
+  </li>
+  <li class="nav-item setting__tabs-item">
+    <%= link_to 'Mentoring Role', '#mentoring-role', { class: 'nav-link setting__tabs-link', 'data-toggle': 'tab', id: 'contact-tab', role: 'tab', "aria-controls": 'contact', "aria-selected": 'false'} %>
+  </li>
+</ul>

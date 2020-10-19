@@ -1,0 +1,14 @@
+<div class="messagebox__header">
+  <div class="messagebox__header-left">
+    <%= div_with_img({class: 'messagebox__avatar'},{src: '/assets/chat-profile-3.png', alt:'chatbox-profile'}) %>
+
+    <div class="messagebox__info">
+      <h4>Sarah Mueller</h4>
+      <%= link_to "@saramueller", "#" %>
+    </div>
+  </div>
+  <div class="messagebox__header-right">
+    <%=link_with_img({href: '#', class: 'vediocall-icon'},{src: '/assets/icons/chat_icons/vediocall-con.svg', alt: 'vediocall-icon'}) %>
+    <%=link_with_img({href: '#', class: 'audiocall-icon'},{src: '/assets/icons/chat_icons/audiocall-icon.svg', alt: 'audiocall-icon'}) %>
+  </div>
+</div>

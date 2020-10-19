@@ -11,9 +11,10 @@ resources :users do
     get 'audio_calling_1'
     get 'audio_calling_4'
     get 'message_chat_new'
-    get 'message_chat'
-
-    
+    get 'message_chat' 
+    get 'dashboard'
+    get 'dashboard_simple'
+    get 'dashboard_schedule_popup'
   end
 end
 end

@@ -26,7 +26,9 @@ module ApplicationHelper
   def display_img(options={})
     image_tag  options[:src],alt: options[:alt],class: options[:class]
   end
+
   def no_path
     'javascript:void()'
   end
+ 
 end

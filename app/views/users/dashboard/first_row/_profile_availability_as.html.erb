@@ -1,0 +1,22 @@
+
+ <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+  <div class="primary-container__tile primary-container__tile--3">
+    <p>
+      Profile Availability as
+      <%= display_img({src: '/assets/icons/question-mark.svg', alt: 'question-mark-icon', class: 'ml-1' }) %>
+    </p>
+    <div class="primary-container__tile-badge">
+      <figure class="primary-container__tile-img--2">
+        <%= display_img({src: '/assets/icons/person.svg', alt: 'mentor-icon'}) %>
+      </figure>
+      <figure class="primary-container__tile-img--3">
+        
+        <%= display_img({src: '/assets/icons/cap.svg', alt: 'mentee-icon'}) %>
+      </figure>
+    </div>
+    <p class="gray">Mentor & Mentee</p>
+    <div class="primary-container__btn-box primary-container__btn-box--2">
+      <%= link_to 'Change Settings', '#', {class: 'button button--outline'} %>
+    </div>
+  </div>
+</div>

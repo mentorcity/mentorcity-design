@@ -1,29 +1,24 @@
 <!-- Main starts -->
-		<main class="main">
-			<div class="main__aside"></div>
-			<section class="main__primary">
-				<div class="chat">
-					<div class="chat__title">Messages</div>
-					<div class="chat__box">
-						<%= render 'users/message_chat/new_msg_btn' %>
-						<%= render 'users/message_chat/chat_search_box'%>
-					</div>
+<main class="main">
+	<div class="main__aside"></div>
+	<section class="main__primary">
+		<div class="chat">
+			<div class="chat__title">Messages</div>
+			<div class="chat__box">
+				<%= render 'users/message_chat/new_msg_btn' %>
+				<%= render 'users/message_chat/chat_search_box'%>
+			</div>
 
-					<div class="chat__container">
-						<!-- message section start -->
-						<div class="row">
-							<!-- message-box-left  -->
-							<%= render 'users/message_chat/message_box_left'%>
-							<!-- message-box-right  -->
-							<%= render 'users/message_chat/message_box_right' %>
-									<!-- messagebox__send wrap -->
-									<%= render 'users/message_chat/message_box_send' %>
-									
-								</div>
-							</div>
-						</div>
-					</div>
+			<div class="chat__container">
+				<!-- message section start -->
+				<div class="row">
+					<!-- message-box-left  -->
+					<%= render 'users/message_chat/message_box_left'%>
+					<!-- message-box-right  -->
+					<%= render 'users/message_chat/message_box_right' %>	
 				</div>
-			</section>
-		</main>
-		<!-- Main ends -->
+			</div>	
+		</div>
+	</section>
+</main>
+<!-- Main ends -->

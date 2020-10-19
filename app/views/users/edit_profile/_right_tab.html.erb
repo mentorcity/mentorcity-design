@@ -1,0 +1,40 @@
+<div class="col-sm-12 col-md-12 col-lg-9 col-xl-9">
+  <!-- Right tabs -->
+  <div class="editprofile__setting">
+    <div class="tab-content" id="myTabContent">
+      <div
+        class="tab-pane setting__tabs fade show active"
+        id="profile"
+        role="tabpanel"
+        aria-labelledby="home-tab"
+      >
+        <h5 class="setting__tabs-title">Profile Settings</h5>
+        <%= render 'users/edit_profile/profile_setting_tabs' %>
+
+        <div class="tab-content" id="myTabContent">
+          
+          <!-- edit profile form -->
+          <%= render 'users/edit_profile/edit_profile_form' %>
+
+          <!-- communication tab -->
+          <%= render 'users/edit_profile/communication_tab' %>
+
+          <!-- mentoring role -->
+          <%= render 'users/edit_profile/mentoring_role' %>
+        </div>
+      </div>
+      
+      <!-- emploment achivement -->
+      <%= render 'users/edit_profile/employment_achivement' %>
+      <!-- skills -->
+      <%= render 'users/edit_profile/skills' %>
+
+      
+      <!-- competencies -->
+      <%= render 'users/edit_profile/compitencies' %>
+      <!-- account setting -->
+      <%= render 'users/edit_profile/account_setting' %>
+      
+    </div>
+  </div>
+</div>

@@ -1,0 +1,32 @@
+<div class="tab-pane fade active show" id="account" role="tabpanel" aria-labelledby="home-tab">
+  <div class="account-settings regular-tab">
+    <div class="row align-items-center">
+      <div class="col-md-12 col-lg-12 col-xl-8">
+        <div class="regular-tab__group">
+          <label for="name" class="regular-tab__label">
+            Email
+          </label>
+          <input type="text" class="regular-tab__input">
+        </div>
+        <div class="regular-tab__group">
+          <label for="name" class="regular-tab__label"> Password </label>
+          <input type="password" class="regular-tab__input">
+        </div>
+        <div class="account-settings__deactivecontainer">
+          <div class="account-settings__deactive">Deactivate Account</div>
+          <div class="account-settings__row">
+            <p>If you delete your account, your data will be gone forever.</p>
+            
+            <%= link_to 'Delete my account', '#' %>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-md-12">
+        <div class="regular-tab__group">
+          <button class="button button--blue">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

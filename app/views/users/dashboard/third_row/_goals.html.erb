@@ -1,0 +1,32 @@
+<div class="col-sm-6 col-md-12 col-lg-6 col-xl-6">
+  <div class="tertiary-container__tile">
+    <div class="tertiary-container__header">
+      <h6 class="tertiary-container__title">My Goals</h6>
+    </div>
+    <div class="tertiary-container__subtitle">
+      <h5>Set a new Goal</h5>
+      <figure>
+        
+        <%= link_with_img({},{src: '/assets/icons/goal_add_plus.svg', alt: 'add-icon'}) %>
+      </figure>
+    </div>
+
+    <div class="tertiary-container__meeting-box">
+      <div class="tertiary-container__empty-check"></div>
+      <p class="tertiary-container__row-desc">Arrange meeting with Maria</p>
+    
+      <%= link_to 'URGENT', '#', {class: 'pill pill-red'} %>
+    </div>
+
+    <div class="tertiary-container__register-course">
+      <i class="fas fa-check-circle fas--fa-circle-1 fas--fa-circle-2"></i>
+      <p class="tertiary-container__row-desc">Arrange meeting with Maria</p>
+      <%= link_to 'LOW', '#', {class: 'pill pill-yellow'} %>
+    </div>
+
+    <div class="tertiary-container__footer">
+      
+      <%= link_to 'View All >', '#' %>
+    </div>
+  </div>
+</div>
