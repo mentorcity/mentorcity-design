@@ -15,6 +15,15 @@ resources :users do
     get 'dashboard'
     get 'dashboard_simple'
     get 'dashboard_schedule_popup'
+    get 'access_connection'
+    get 'audio_call_group'
+    get 'awards_achivements'
+    get 'courses'
+    get 'dashboard_admin_account'
+    get 'discussion'
+    get 'discussion_thread'
+    get 'discussion_thread_second'
+    get 'groups'
   end
 end
 end

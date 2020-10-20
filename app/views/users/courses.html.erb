@@ -1,0 +1,19 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="main__primary courses">
+    <div class="courses__container">
+      <div class="courses__header">
+        <%= display_img ({src: '/assets/icons/icon-search.svg', alt: 'courses-search-icon'}) %>
+        <input type="text" placeholder="Search by Keyword" />
+        
+        <%= link_to 'Search', '#', {class: 'button--blue'} %>
+      </div>
+
+      <%= render 'users/courses/new_courses' %>
+      <%= render 'users/courses/recomended_courses' %>
+      
+    </div>
+  </section>
+</main>
+<!-- Main ends -->

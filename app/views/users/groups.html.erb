@@ -1,0 +1,51 @@
+<!-- Main starts -->
+<main class="main groups__container">
+  <div class="main__aside"></div>
+  <section class="main__primary">
+    <div class="groups">
+      <div class="groups__title">Groups (3)</div>
+      <div class="groups__nav-list">
+        <ul>
+          <li>
+            <%= link_to 'Active (3)', '#', {class: 'groups__nav-link active'} %>
+            <%= display_img({src: '/assets/icons/groups_icon/grops-bredcrum-icon.svg', alt: 'grops-bredcrum-icon'}) %>
+          </li>
+          <li>
+            <%= link_to 'Inactive (4)', '#', {class: 'groups__nav-link'} %>
+            <%= display_img({src: '/assets/icons/groups_icon/grops-bredcrum-icon.svg', alt: 'grops-bredcrum-icon'}) %>
+          </li>
+          <li>
+              <%= link_to 'Archived (1)', '#', {class: 'groups__nav-link'} %>
+          </li>
+        </ul>
+      </div>
+      <div class="groups__cards">
+        <div class="groups__card">
+        <%= display_img({src: '/assets/groups-img-1.png', alt: 'groups-img-1'}) %>
+          <div class="groups__card-desc">
+            <h6>Gareth Group</h6>
+            <p>Created on 19/06/2017</p>
+            <%= link_to '39 Members', '#' %>
+          </div>
+        </div>
+        <div class="groups__card">
+        <%= display_img({src: '/assets/groups-img-2.png', alt: 'groups-img-2'}) %>
+          <div class="groups__card-desc">
+            <h6>Gareth Group</h6>
+            <p>Created on 19/06/2017</p>
+            <%= link_to '39 Members', '#' %>
+          </div>
+        </div>
+        <div class="groups__card">
+        <%= display_img({src: '/assets/groups-img-3.png', alt: 'groups-img-2'}) %>
+          <div class="groups__card-desc">
+            <h6>Gareth Group</h6>
+            <p>Created on 19/06/2017</p>
+            <%= link_to '39 Members', '#' %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Main ends -->

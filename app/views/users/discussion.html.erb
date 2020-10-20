@@ -1,0 +1,35 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="main__primary discussions">
+    <div class="discussions__container">
+      <div class="discussions__title">Discussions</div>
+      <div class="discussions__com-form">
+        <h3>Community Forum</h3>
+        <p>
+          New to the forum? Here’s where to start: Browse our groups and
+          Start a discussion!
+        </p>
+        <div class="discussions__foter">
+          <div class="discussions__members">
+            <%= display_img({src: '/assets/icons/discussions_icons/discussion-member-icon.svg', alt: 'discussion-member-icon'}) %>              
+            <%= link_to '#', '6,902 members in 5 groups' %>
+          </div>
+          <div class="discussions__posts">
+            <%= display_img({src: '/assets/icons/discussions_icons/discussion-message-icon.svg', alt: 'discussion-message-icon'}) %>        
+            <%= link_to '#' do %>
+              <span>55,303</span> posts
+            <% end %>
+          </div>
+        </div>
+      </div>
+      <%= render 'users/discussion/general_discussion' %>
+      <%= render 'users/discussion/bmcc_student_mentoring' %>
+                                   
+      
+
+
+    </div>
+  </section>
+</main>
+<!-- Main ends -->

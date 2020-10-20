@@ -57,9 +57,18 @@
 		}
 	}
 
+	&__logo--admin {
+		flex-basis: 21rem;
+		padding-right: 0;
+	}
+
 	&__img {
 		height: 3rem;
 		width: auto;
+	}
+
+	&__img--admin {
+		height: 4.5rem;
 	}
 
 	&__side {
@@ -105,5 +114,4 @@
 	&__btn-box {
 		position: relative;
 	}
-
 }

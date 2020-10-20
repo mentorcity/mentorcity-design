@@ -12,17 +12,27 @@ $pill-blue: #effafe;
 $pill-light: #eff8e5;
 $color-red: #eb5757;
 $color-yellow: #f2c94c;
-$light-blue: #eff3fc;
+$bg-blue: #eff3fc;
 
 // TEXT COLOR
 $dark-gray: #384052;
 $light-gray: #556182;
 $blue: #204ecf;
 $gray: #8b94ae;
+$dark-blue: #32325d;
+$light-blue: #6f6f8c;
+$dark: #313e61;
+
+//link color
+$link-color: #4282d9;
 
 // SHADOWS
 $nav-shadow: 0px 4px 4px rgba(0, 0, 0, 0.04);
 $card-shadow: 1px 1px 10px rgba(0, 0, 0, 0.06);
 
 // gradient colors for calls
-$call-gradient-color: linear-gradient(131.86deg, #ca1f5d 5.73%, #321d7d 100.67%);
+$call-gradient-color: linear-gradient(
+  131.86deg,
+  #ca1f5d 5.73%,
+  #321d7d 100.67%
+);

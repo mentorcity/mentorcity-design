@@ -1,22 +1,23 @@
 .pulse{
-  &::before,
-  &::after{
-      content: "";
-      position: absolute;
-      display: block;
-      border: 2rem solid darken(#6c1e71, 5%);
-      
-      left: -20px;
-      right: -20px;
-      top: -20px;
-      bottom: -20px;
-      border-radius: 50%;
-      animation: pulseEffect 1.5s linear infinite;
-      opacity: 0;
-  }
-  &::after{
-      animation-delay: 0.3s;
-  }
+    &::before,
+    &::after{
+            content: "";
+            position: absolute;
+            display: block;
+            border: 2rem solid darken(#6c1e71, 5%);
+            
+            left: -20px;
+            right: -20px;
+            top: -20px;
+            bottom: -20px;
+            border-radius: 50%;
+            animation: pulseEffect 1.5s linear infinite;
+            opacity: 0;
+    }
+
+    &::after{
+        animation-delay: 0.3s;
+    }
 }
 
 @keyframes pulseEffect {

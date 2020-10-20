@@ -1,0 +1,22 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="main__primary discuss-box">
+    <div class="discuss-box__container discuss-thread">
+      <div class="discuss-box__header">
+        
+        <%= link_to 'Discussion', '#', {class: 'discuss-box__tile-1'} %>
+        <span> / </span>
+        
+          <%= link_to 'General', '#', {class: 'discuss-box__tile-2 discuss-thread__tile'} %>        
+        <span> / </span>
+       
+        <%= link_to 'I need help', '#', {class: 'discuss-box__tile-2'} %>
+      </div>
+    
+      <%= render 'users/discussion/general/question' %>
+      <%= render 'users/discussion/general/replay' %>
+    </div>
+  </section>
+</main>
+<!-- Main ends -->

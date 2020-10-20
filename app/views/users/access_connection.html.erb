@@ -1,0 +1,51 @@
+<!-- Main starts -->
+<main class="main access-connection__container">
+  <div class="main__aside"></div>
+  <section class="main__primary">
+    <div class="access-connection">
+      <div class="access-connection__title">Mobile App</div>
+    </div>
+    <div class="access-connection__head">
+      <h6>What can I do in the mobile app?</h6>
+      <p>
+        Download the MentorCity Platform app to get on-the-go access to
+        connections, guidelines, events, and more.<br />
+        the app, you can respond quickly to message and communicate wherever
+        you are.
+      </p>
+    </div>
+    <div class="access-connection__list">
+      <p>You can use it to:</p>
+      <ul>
+        <li>Get Connected with others</li>
+        <li>Find Mentors and Mentees</li>
+        <li>Respond to Messages</li>
+        <li>Schedule Meetings</li>
+        <li>Manage Account Settings</li>
+        <li>Access to Courses</li>
+        <li>Join Events</li>
+      </ul>
+    </div>
+    <div class="access-connection__playstore-icons">
+      <%= link_to '' do %>
+        <%= display_img({src: '/assets/icons/access_icons/acesss_googleplay-icon.svg', alt: 'googleplay-icon'}) %>
+      <% end %>
+     <%= link_to '' do %>
+        <%= display_img({src: '/assets/icons/access_icons/acess_appstore-icon.svg', alt: 'appstore-icon'}) %>
+      <% end %>
+    
+    </div>
+    <div class="access-connection__feedback">
+      <p>
+        We’re constantly working on improvements and adding new features, so
+        expect more to come! To help us <br />
+        improve your experience, feel free to share any cool ideas or
+        feedback in
+        <span class="access-connection__feedback-link"
+          ><%= link_to 'feedback@mentorcity.com', '' %></span
+        >
+      </p>
+    </div>
+  </section>
+</main>
+<!-- Main ends -->

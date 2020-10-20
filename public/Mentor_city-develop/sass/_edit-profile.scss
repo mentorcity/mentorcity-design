@@ -178,6 +178,10 @@
 
 		&:not(:last-child) {
 			margin-right: 1.5rem;
+
+			@media only screen and (max-width: 768px) {
+				margin-bottom: 1rem;
+			}
 		}
 	}
 
@@ -208,6 +212,10 @@
 				margin-top: 3rem;
 			}
 		}
+	}
+
+	&__button-box {
+		margin-top: 6rem;
 	}
 
 	&__label {
@@ -258,6 +266,21 @@
 			max-width: 100%;
 		}
 	}
+
+	&__select--multiple {
+		width: 26rem;
+		max-width: 26rem;
+
+		@media only screen and (max-width: 768px) {
+			width: 100%;
+			max-width: 100%;
+		}
+
+		@media only screen and (min-width: 1500px) {
+			width: 100%;
+			max-width: 100%;
+		}
+	}
 }
 
 .communication {
@@ -293,71 +316,90 @@
 	}
 }
 
-.specialized{
-	.regular-tab__group{
+.specialized {
+	.regular-tab__group {
 		display: flex;
 		align-items: flex-start;
 		flex-direction: column;
 	}
 
-	.regular-tab__input{
+	.regular-tab__input {
 		width: 27rem !important;
 		max-width: 27rem !important;
 		margin-bottom: 1.5rem;
 
-		a{
+		a {
 			display: flex;
 		}
 	}
 }
 
-.account-settings{
-	.regular-tab__input{
-		width: 37.77rem !important;
-		max-width: 37.77rem !important;
-		margin-bottom: 1.5rem;
+.account-settings {
+	.regular-tab__input {
+		width: 37.77rem;
+		max-width: 37.77rem;
 
+		@media only screen and (max-width: 768px) {
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+
+		@media only screen and (min-width: 1500px) {
+			width: 100% !important;
+			max-width: 100% !important;
+		}
 	}
 
-	@media only screen and (max-width: 768px){
-	.regular-tab__input {
-    width: 100%;
-    max-width: 100%;
-}
+	&__deactive-box {
+		margin-top: 3rem;
+	}
 
-}
-
-	&__deactive{
+	&__deactive {
 		color: $sidebar-bg;
 		font-size: 1.4rem;
 		margin-bottom: 0.5rem;
 	}
 
-	&__row{
+	&__row {
 		display: flex;
 		justify-content: space-between;
-		
-		p{
+
+		p {
 			color: $light-gray;
 			font-size: 1.3rem;
 		}
 
-		a{
+		a {
 			color: $blue;
 			font-size: 1.3rem;
 
-			&:hover{
+			&:hover {
 				text-decoration: underline !important;
 			}
 		}
 	}
-
 }
 
-.language{
-
-	.regular-tab__select{
+.language {
+	.regular-tab__select {
 		max-width: 37rem !important;
 		width: 37rem !important;
+
+		@media only screen and (max-width: 768px) {
+			width: 100% !important;
+			max-width: 100% !important;
+		}
+
+		@media only screen and (min-width: 1500px) {
+			width: 100% !important;
+			max-width: 100% !important;
+		}
 	}
+}
+
+.edit-profile-btn {
+	margin: 0;
+	position: absolute;
+	right: 3.5rem;
+	bottom: 2rem;
 }

@@ -1,0 +1,20 @@
+<div class="discuss-box__primary">
+  <h3>General</h3>
+  <p class="discuss-box__desc">
+    Can't find a place for your question in our other categories? Got
+    a general query or comment about our forums? Want to chat about
+    the weather or the latest episode of Strictly? This is the place
+    for you.
+  </p>
+  <div class="discuss-box__footer discuss-box__footer-1">
+    <div class="discuss-box__member">
+      <%= display_img({src: '/assets/icons/discussions_icons/discussion-member-icon.svg', alt: 'member-icon'}) %>
+      <%= link_to ' 130 Members', '#' %>
+      <div class="discuss-box__replies">
+         <%= display_img({src: '/assets/icons/discussions_icons/discussion-message-icon.svg', alt: 'message-icon'}) %>
+        <%= link_to ' 55,303 replies', '#', {class: 'discuss-box__reply'} %>
+      </div>
+    </div>
+    <%= link_to 'New Discussion', '#', {class: 'button--blue button--blue--font'} %>
+  </div>
+</div>

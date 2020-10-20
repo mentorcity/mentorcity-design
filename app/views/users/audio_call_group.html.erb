@@ -1,0 +1,46 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="group-call">
+    <div class="group-call__container">
+      <%= render 'users/audio_call/group_call/top_bar' %>
+      <div class="group-call__members">
+        <div class="row no-gutters">
+          <div class="col-md-6">
+            <div class="group-call__member">
+              <%= display_img({src: '/assets/member-1.png', alt: ''}) %>
+              <%= link_to 'Sara Mueler', '#', {class: 'button button--call'}%>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="group-call__member">
+              <%= display_img({src: '/assets/member-2.png', alt: ''}) %>
+              <%= link_to 'Mishi Khan', '#', {class: 'button button--call'}%>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="group-call__member">
+              <%= display_img({src: '/assets/member-3.png', alt: ''}) %>
+              <%= link_to 'Sven Berg', '#', {class: 'button button--call'}%>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="group-call__member">
+              <%= display_img({src: '/assets/member-4.png', alt: ''}) %>
+              <%= link_to 'Julia k.', '#', {class: 'button button--call'}%>
+            </div>
+          </div>
+        </div>
+        <!--  call icons -->
+        <div class="audiocall__icons">
+          <%= render 'users/audio_call/call_icons' %>
+          <div class="audiocalling__chat-icon">
+            <%= render 'users/audio_call/calling_chat_icon' %>
+          </div>
+        </div> 
+      </div>
+    </div>
+    <%= render 'users/audio_call/group_call/group_call_chat_menu/group_call_chat_menu' %>
+  </section>
+</main>
+<!-- Main ends -->

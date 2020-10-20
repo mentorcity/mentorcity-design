@@ -1,0 +1,51 @@
+
+<div class="replies__container">
+  <div class="replies__header">
+    <h3>4 Replies</h3>
+  </div>
+  <div class="replies__edited">Edited 3 weeks ago</div>
+  <div class="replies__user">
+    <%= display_img({src: '/assets/icons/discussions_icons/discussion-member-icon.svg', alt: 'replies-user-icon'}) %>
+    <%= link_to '@sam123', '#', {class: 'replies__user-name'} %>
+  </div>
+  <div class="replies__content">
+    <p>Hi Tom.</p>
+    <p>
+      I can tell this from my past experience that you need to
+      register first.
+    </p>
+  </div>
+  <div class="replies__foter">
+    <div class="replies__likes-box">
+      <%= display_img({src: '/assets/icons/like-icon.svg', alt: 'reply-like-icon'}) %>
+      <%= link_to '2', '#' %>
+
+    </div>
+    <div class="replies__reply-box">
+      <%= display_img({src: '/assets/icons/discussions_icons/discussion-message-icon.svg', alt: 'reply-mess-icon'}) %>
+      <%= link_to 'Reply', '#' %>
+    </div>
+  </div>
+</div>
+<div class="replies__container replies__new-user">
+  <div class="replies__edited">Edited 4 weeks ago</div>
+  <div class="replies__user">
+    
+    <%= display_img({src: '/assets/icons/discussions_icons/discussion-member-icon.svg', alt: 'replies-user-icon'}) %>
+    <%= link_to '@sam123', '#', {class: 'replies__user-name'} %>
+  </div>
+  <div class="replies__content">
+    <p>Thank you Sam</p>
+  </div>
+  <div class="replies__foter">
+    <div class="replies__likes-box">
+      <%= display_img({src: '/assets/icons/like-icon.svg', alt: 'reply-like-icon'}) %>
+      
+      <%= link_to '2', '#' %>
+    </div>
+    <div class="replies__reply-box">
+      <%= display_img({src: '/assets/icons/discussions_icons/discussion-message-icon.svg', alt: 'reply-mess-icon'}) %>
+      <%= link_to 'Reply', '#' %>
+    </div>
+  </div>
+</div>

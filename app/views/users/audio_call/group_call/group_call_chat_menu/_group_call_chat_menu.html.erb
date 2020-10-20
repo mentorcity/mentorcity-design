@@ -1,0 +1,49 @@
+<div class="group-call__chat-menu">
+  <%= render 'users/audio_call/group_call/group_call_chat_menu/header' %>
+  <div class="tab-content" id="myTabContent">
+    <div
+      class="tab-pane fade "
+      id="people"
+      role="tabpanel"
+      aria-labelledby="people-tab"
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsa!
+    </div>
+    <div class="tab-pane fade show active" id="chat" role="tabpanel" aria-labelledby="chat-tab">
+      <div class="group-chat__chatting-box">
+        <div class="group-chat__messenger">
+          <div class="group-chat__message group-chat__message--left">
+            <%= display_img({src: '/assets/chat-profile-1.png', alt: ''}) %>
+            <p>Hi Martin</p>
+          </div>
+
+          <div class="group-chat__message group-chat__message--left">
+            <%= display_img({src: '/assets/chat-profile-1.png', alt: ''}) %>
+            <p>Hi Martin</p>
+          </div>
+
+          <div class="group-chat__message group-chat__message--left">
+            <%= display_img({src: '/assets/chat-profile-2.png', alt: ''}) %>
+            <p>Hi Sarah</p>
+          </div>
+          
+          <div class="group-chat__message group-chat__message--right">
+            <%= display_img({src: '/assets/chat-profile-3.png', alt: ''}) %>
+            <p>Guys, i need some help with setting up new account for a member... </p>
+          </div>
+
+          <div class="group-chat__message group-chat__message--left">
+            <%= display_img({src: '/assets/chat-profile-4.png', alt: ''}) %>
+            <p>Sarah, I can’t hear, you are on Mute - please check</p>
+          </div>
+        </div>
+        <div class="group-chat__send-box">
+          <input type="text" class="group-chat__input" placeholder="Type here">
+        </div>
+      </div>
+    </div>
+    <div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, ipsa!
+    </div>
+  </div>
+</div>

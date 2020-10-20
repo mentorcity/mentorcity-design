@@ -1,0 +1,52 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="main__primary discuss-box">
+    <div class="discuss-box__container">
+      <div class="discuss-box__header">
+        <%= link_to ' Discussion', '#', {class: 'discuss-box__tile-1'} %>
+        <span> / </span>
+        <%= link_to 'General', '#', {class: 'discuss-box__tile-2'} %>
+      </div>
+     <%= render 'users/discussion/general/new_discussion' %>
+      <div class="discuss-box__primary discuss-box__secondary">
+        <div class="explamation-mark">
+          <%= display_img({src: '/assets/icons/explamation-mark.svg', alt: 'explamation-mark'}) %>
+        </div>
+        <h3>Request for Forum User Feedback</h3>
+        <p class="discuss-box__desc">
+          Hello, We recognise that recent changes to the forums have not
+          worked for all users. Therefore, we are now planning an update to
+          improve users experience of the forums. As part of this we are
+          requesting that you please add your requests or ideas that are
+          your highest priorities as a reply to this …
+        </p>
+        <div class="discuss-box__footer">
+          <span
+            >By <%= link_to 'Sam_Moderator', '#', {class: 'discuss-box__user'} %></span
+          >
+          <%= link_to 'Last reply 2 weeks ago', '#', {class: 'discuss-box__last-rep'} %>
+        </div>
+      </div>
+      <div class="discuss-box__primary discuss-box__tertiary">
+        <h3>I need some help with adding new members</h3>
+        <span class="discuss-box__user-name"> By 
+          <%= link_to 'tom.mark', '#' %>
+        </span>
+        <div class="discuss-box__footer">
+          <div class="discuss-box__member">
+             <%= display_img({src: '/assets/icons/like-icon.svg', alt: 'like-icon'}) %>
+            <%= link_to ' 130 Members', '#' %>
+            <div class="discuss-box__replies">
+               <%= display_img({src: '/assets/icons/discussions_icons/discussion-message-icon.svg', alt: 'message-icon'}) %>
+              
+              <%= link_to '55,303 replies', '#', {class: 'discuss-box__reply discuss-box__rep'} %>
+            </div>
+          </div>
+          <%= link_to 'Posted 7 hours ago', '#', {class: 'discuss-box__new-disc'} %>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+    <!-- Main ends -->

@@ -1,0 +1,31 @@
+<!-- Second row -->
+        <div class="primary-container">
+          <div class="row">
+         
+           <%= render 'users/dashboard/dashboard_admin_account/organization_profile' %>
+           <%= render 'users/dashboard/dashboard_admin_account/invitation_link' %>
+           <%= render 'users/dashboard/dashboard_admin_account/members_match' %>
+
+            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-3">
+              <div class="primary-container__tile primary-container__tile--1">
+                <p>
+                  Members Match
+                  
+                  <%= display_img({src: '/assets/icons/question-mark.svg', alt: 'question-mark-icon', class: 'ml-1'}) %>
+                </p>
+                <figure class="primary-container__tile-img--1">
+                
+                  <%= display_img({src: '/assets/icons/admin/admin-member.svg', alt: 'calender-icon', class: ''}) %>
+                </figure>
+                <p class="">280 Members</p>
+                <div
+                  class="primary-container__btn-box primary-container__btn-box--1"
+                >
+                  
+                   <%= link_to 'Edit Settings', '#', {class: 'button button--outline button--outline-admin'} %>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
