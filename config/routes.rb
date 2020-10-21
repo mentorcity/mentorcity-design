@@ -24,6 +24,9 @@ resources :users do
     get 'discussion_thread'
     get 'discussion_thread_second'
     get 'groups'
+    get 'event_read_more'
+    get 'helpline_1'
+    get 'helpline_2'
   end
 end
 end

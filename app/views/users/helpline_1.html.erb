@@ -1,0 +1,36 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="main__primary helpline">
+    <div class="helpline__header mb-5">
+      <p class="helpline__tilte">Helpline</p>
+      <div class="helpline__search-input">
+        <div class="helpline__search-wrap">
+          <form>
+            <%= display_img({src: '/assets/icons/icon-search.svg', alt: 'helpline-search-icon', class: 'helpline__search-icon'}) %>
+            <input type="text" placeholder="Search Keyword" />
+          </form>
+        </div>
+      </div>
+      <%= display_img({src: '/assets/icons/helpline_icons/helpline-charectors-icon.svg', alt: 'helpline-charectors-icon', class: 'helpline__top-img'}) %>
+    </div>
+    <div class="primary-container helpline__container">
+      <ul>
+        <li><%= link_to 'Resources', '#' %></li>
+        <li><%= link_to 'Calendar Invite', '#' %></li>
+        <li><%= link_to 'Message', '#' %></li>
+        <li><%= link_to 'Groups', '#' %></li>
+        <li><%= link_to 'Meetings', '#' %></li>
+        <li><%= link_to 'Video Calls', '#' %></li>
+        <li><%= link_to 'Mentoring', '#' %></li>
+        <li><%= link_to 'Agreement', '#' %></li>
+        <li><%= link_to 'Engaements', '#' %></li>
+        <li><%= link_to 'Settings', '#' %></li>
+        <li><%= link_to 'Profile Settings', '#' %></li>
+        <li><%= link_to 'Getting Started', '#' %></li>
+
+      </ul>
+    </div>
+  </section>
+</main>
+<!-- Main ends -->

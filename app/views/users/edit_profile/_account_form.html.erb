@@ -8,24 +8,28 @@
           </label>
           <input type="text" class="regular-tab__input">
         </div>
-        <div class="regular-tab__group">
-          <label for="name" class="regular-tab__label"> Password </label>
-          <input type="password" class="regular-tab__input">
-        </div>
-        <div class="account-settings__deactivecontainer">
-          <div class="account-settings__deactive">Deactivate Account</div>
-          <div class="account-settings__row">
-            <p>If you delete your account, your data will be gone forever.</p>
-            
-            <%= link_to 'Delete my account', '#' %>
+        <form>
+          <div class="regular-tab__group">
+            <label for="name" class="regular-tab__label"> Password </label>
+            <input type="password" class="regular-tab__input">
           </div>
-        </div>
+          <div class="account-settings__deactivecontainer">
+            <div class="account-settings__deactive">Deactivate Account</div>
+            <div class="account-settings__row">
+              <p>If you delete your account, your data will be gone forever.</p>
+              
+              <%= link_to 'Delete my account', '#' %>
+            </div>
+          </div>
+        </form>
         
       </div>
       <div class="col-md-12">
-        <div class="regular-tab__group">
-          <button class="button button--blue">Save</button>
-        </div>
+        <form>
+          <div class="regular-tab__group">
+            <button class="button button--blue">Save</button>
+          </div>
+        </form>
       </div>
     </div>
   </div>

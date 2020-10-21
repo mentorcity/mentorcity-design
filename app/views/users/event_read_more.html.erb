@@ -1,0 +1,52 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="main__primary events">
+    <div class="events__header">
+      <%= link_to 'Events', '#', {class: 'events__tile-1'} %>
+      <span>/</span>
+      <%= link_to 'Upcoming', '#', {class: 'events__tile-2'} %>
+      <span>/</span>
+      <%= link_to 'Graduate Programme in Public', '#', {class: 'events__tile-3'} %>
+    </div>
+    <div class="events__container">
+      <!-- events side bar -->
+      <%= render 'users/event_read_more/side_bar' %>
+      <div class="col-sm-12 col-md-7 col-lg-9">
+        <div class="events__main">
+          <div class="events__program-primary">
+            <h3 class="events__primary-tile-1">
+              Graduate Program in Public
+            </h3>
+            <p class="events__primary-tile-2">by MentorCity Team</p>
+            <p class="events__primary-tile-3">
+              Join us to learn how mentoring can help you progress
+              throughout your career.
+            </p>
+          </div>
+          <div class="events__program-secondary">
+            <h2 class="events__secondary-tile-1">About this Event</h2>
+            <p class="events__secondary-tile-2">
+              Get an exclusive inside look at the future of blockchain and
+              crypto in our system. Join the Reimagine "Disrupt The System"
+              Virtual Conference, a 72-hour live event bringing together
+              industry leaders, universities, and enterprises innovating to
+              solve real problems, now.
+            </p>
+          </div>
+          <div class="events__program-tertiary">
+            <h2 class="events__tertiary-tile-1">Heading comes here</h2>
+            <p class="events__tertiary-tile-2">
+              Get an exclusive inside look at the future of blockchain and
+              crypto in our system. Join the Reimagine "Disrupt The System"
+              Virtual Conference, a 72-hour live event bringing together
+              industry leaders, universities, and enterprises innovating to
+              solve real problems, now.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Main ends -->

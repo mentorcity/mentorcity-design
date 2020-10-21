@@ -1,0 +1,76 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="main__primary helpline_2">
+    <div class="helpline_2__header mb-5">
+      <a class="helpline_2__tile_1">Helpline</a>
+      <span>/</span>
+      <a class="helpline_2__tile_2">Get Started</a>
+    </div>
+    <div class="helpline_2__container">
+      <div class="row">
+        
+        <%= render 'users/helpline/sidebar' %>
+        </div>
+        <div class="col-lg-7">
+          <div class="helpline_2__right-container">
+            <div class="tab-content" id="v-pills-tabContent">
+              <div
+                class="tab-pane fade show active"
+                id="v-pills-resources"
+                role="tabpanel"
+                aria-labelledby="v-pills-resources-tab"
+              >
+                <!-- section 1 -->
+                <h3>How do I Add Resources?</h3>
+                <p>
+                  Resources allow Admins and users to post resources, in the
+                  form of files, on the platform for others to see and use. The
+                  resources are displayed within folders on the Resources page.
+                  It is important to note that all files must be added to a
+                  folder and cannot stand alone.
+                </p>
+
+                <%= display_img({src: '/assets/helpline-img.png', alt: 'helpline-img' })%>
+                <h3>Adding a New Resource Folder</h3>
+                <p>
+                  Users who have the relevant permissions to post content on the
+                  resources page will be able to add new resource folders. Once
+                  they click the New Folder button on the top right, they will
+                  be taken to the “new folder” screen. Here they will be
+                  prompted to add.
+                </p>
+                <!-- section end -->
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-member-group"
+                role="tabpanel"
+                aria-labelledby="v-pills-member-group-tab"
+              >
+                <h1>add member</h1>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-Publishing"
+                role="tabpanel"
+                aria-labelledby="v-pills-Publishing-tab"
+              >
+                <h1>publishing article</h1>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="v-pills-new-Section"
+                role="tabpanel"
+                aria-labelledby="v-pills-new-Section-tab"
+              >
+                <h1>new section</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Main ends -->
