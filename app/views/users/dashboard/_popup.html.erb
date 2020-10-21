@@ -81,8 +81,12 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="button button--blue">Go To Dashboard</button>
+        <%= link_to 'Go To Dashboard', '/users/dashboard', {class: 'button button--blue'} %>
+        
       </div>
     </div>
   </div>
 </div>
+<script>
+      $("#myModal").modal("show");
+</script>

@@ -1,0 +1,252 @@
+<!-- Main starts -->
+<main class="main">
+  <div class="main__aside"></div>
+  <section class="main__primary">
+    <div class="members">
+      <div class="forward-list">
+        <%= link_to 'Dashboard', '#' %>
+        <span>/</span>
+        <%= link_to 'Matching Members', '#' %>
+      </div>
+
+      <%= render 'users/members_list/matching_members' %>
+
+      <div class="allmembers-card">
+        <div class="allmembers-card__header">
+          <h3 class="allmembers-card__title">All Members</h3>
+          <div class="allmembers-card__sort">
+           
+            <%= link_to '#', {class: 'allmembers-card__sort-btn'} do%>
+              <%= display_img({src: '/assets/icons/sort.svg', alt: '' }) %>
+                  sort
+            <% end %>
+          </div>
+        </div>
+
+        <div class="allmembers-card__rows">
+          <div class="allmembers-card__row-header">
+            <div class="row">
+              <div class="col-xl-3">
+                <div class="allmembers-card__row-title">Name</div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__row-title">Matched with</div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__row-title">Status</div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__row-title">Compatibility</div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__row-title">Action</div>
+              </div>
+              <div class="col-xl-1"></div>
+            </div>
+          </div>
+          <div class="allmembers-card__list">
+            <div class="row align-items-center">
+              <div class="col-xl-3">
+                <div class="allmembers-card__avatar">
+                  <figure>
+                    <%= display_img({src: '/assets/chat-profile-1.png', alt: '' }) %>
+                  </figure>
+                  <div class="allmembers-card__details">
+                    <h5>Saraha Mueller</h5>
+                    <p>Member since 26.08.2014</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__avatar">
+                  <figure>
+                    <%= display_img({src: '/assets/chat-profile-2.png', alt: '' }) %>
+                  </figure>
+                  <div class="allmembers-card__details">
+                    <h5>Kim Fischer</h5>
+                    <p>Member since 26.08.2014</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__details">
+                  <h5>Stage 2</h5>
+                  <p>Member since 26.08.2014</p>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__percentage--green">80%</div>
+              </div>
+              <div class="col-xl-3">
+                <div class="allmembers-card__button">
+                  <%= link_to 'Matched', '#', {class: 'button button--blue mr-5'} %>
+                  
+                  <%= link_to '#' do%>
+                    <%= display_img({src: '/assets/icons/more.svg', alt: '' }) %>
+                        
+                  <% end %>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-xl-3">
+                <div class="allmembers-card__avatar">
+                  <figure>
+                    <%= display_img({src: '/assets/chat-profile-3.png', alt: '' }) %>
+                  </figure>
+                  <div class="allmembers-card__details">
+                    <h5>Sven Korb</h5>
+                    <p>Member since 26.08.2014</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__avatar">
+                  <figure>
+                    <%= display_img({src: '/assets/chat-profile-4.png', alt: '' }) %>
+                  </figure>
+                  <div class="allmembers-card__details">
+                    <h5>Martin Burk</h5>
+                    <p>Member since 26.08.2014</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__details">
+                  <h5>Stage 1</h5>
+                  <p>Member since 26.08.2014</p>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__percentage--red">50%</div>
+              </div>
+              <div class="col-xl-3">
+                <div class="allmembers-card__button">
+                  <%= link_to 'Matched', '#', {class: 'button button--blue mr-5'} %>
+                  <%= link_to '#' do%>
+                    <%= display_img({src: '/assets/icons/more.svg', alt: '' }) %>
+                        
+                  <% end %>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-xl-3">
+                <div class="allmembers-card__avatar">
+                  <figure>
+                    <%= display_img({src: '/assets/chat-profile-5.png', alt: '' }) %>
+                  </figure>
+                  <div class="allmembers-card__details">
+                    <h5>Mishi Khan</h5>
+                    <p>Member since 26.08.2014</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2"></div>
+              <div class="col-xl-2"></div>
+              <div class="col-xl-2"></div>
+              <div class="col-xl-3">
+                <div class="allmembers-card__button">
+                  <%= link_to 'Matched', '#', {class: 'button button--blue mr-5'} %>
+                 <%= link_to '#' do%>
+                    <%= display_img({src: '/assets/icons/more.svg', alt: '' }) %>
+                        
+                  <% end %>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-xl-3">
+                <div class="allmembers-card__avatar">
+                  <figure>
+                    <%= display_img({src: '/assets/chat-profile-6.png', alt: '' }) %>
+                  </figure>
+                  <div class="allmembers-card__details">
+                    <h5>Sam Otto</h5>
+                    <p>Member since 26.08.2014</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__avatar">
+                  <figure>
+                    <%= display_img({src: '/assets/chat-profile-7.png', alt: '' }) %>
+                  </figure>
+                  <div class="allmembers-card__details">
+                    <h5>Millaine Supi</h5>
+                    <p>Member since 26.08.2014</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__details">
+                  <h5>Stage 3</h5>
+                  <p>Member since 26.08.2014</p>
+                </div>
+              </div>
+              <div class="col-xl-2">
+                <div class="allmembers-card__percentage--green">70%</div>
+              </div>
+              <div class="col-xl-3">
+                <div class="allmembers-card__button">
+                  <%= link_to 'Matched', '#', {class: 'button button--blue mr-5'} %>
+                  <%= link_to '#' do%>
+                    <%= display_img({src: '/assets/icons/more.svg', alt: '' }) %>
+                        
+                  <% end %>
+                </div>
+              </div>
+            </div>
+
+            <div class="row align-items-center">
+              <div class="col-xl-3">
+                <div class="allmembers-card__avatar">
+                  <figure>
+                    <%= display_img({src: '/assets/chat-profile-1.png', alt: '' }) %>
+                  </figure>
+                  <div class="allmembers-card__details">
+                    <h5>Minni herich</h5>
+                    <p>Member since 26.08.2014</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2"></div>
+              <div class="col-xl-2"></div>
+              <div class="col-xl-2"></div>
+              <div class="col-xl-3">
+                <div class="allmembers-card__button">
+                  <%= link_to 'Matched', '#', {class: 'button button--blue mr-5'} %>
+                  <%= link_to '#' do%>
+                    <%= display_img({src: '/assets/icons/more.svg', alt: '' }) %>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="allmembers-card__row-footer">
+            <div class="allmembers-card__pages">
+              <p>Rows per page:</p>
+              <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3" selected>3</option>
+              </select>
+            </div>
+            <div class="allmembers-card__total-pages">
+              <p>1 - 3 of 10</p>
+              <div class="allmembers-card__nav">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<!-- Main ends -->

@@ -1,0 +1,50 @@
+   <div class="members-card">
+        <h3 class="members-card__title">Matching Members</h3>
+        <div class="row">
+          <div class="col-sm-8 col-lg-10">
+            <div class="members-card__input-box">
+              <form class="search-input">
+                <%= display_img({src: '/assets/icons/icon-search.svg', alt: '', class: 'search-input__icon'}) %>
+                <input type="text" class="search-input__input" />
+              </form>
+              <%= link_to 'Search', '#', {class: 'button button--blue'} %>
+            </div>
+          </div>
+          <div class="col-sm-4 col-lg-2">
+            <div
+              class="members-card__filter d-flex justify-content-center justify-content-md-end"
+            >
+            <%= link_to '#', {class: 'button button--filter'} do%>
+                  <%= display_img({src: '/assets/icons/admin/admin-filter-btn.svg', alt: '' }) %>
+                  Advance Filter
+                <% end %>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="members-card__input-box">
+              <input type="text" placeholder="Specialized Skills" class="members-card__input" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="members-card__input-box">
+              <input type="text" placeholder="Industry" class="members-card__input" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="members-card__input-box">
+              <input type="text" placeholder="Job Function" class="members-card__input" />
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="members-card__input-box">
+              <input type="text" placeholder="Languages" class="members-card__input" />
+            </div>
+          </div>
+        </div>
+
+        <div class="members-card__footer">
+          <%= link_to 'Clear Filters', '#' %>
+        </div>
+      </div>

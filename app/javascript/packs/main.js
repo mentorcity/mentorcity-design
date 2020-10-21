@@ -9,6 +9,10 @@ $(document).on('turbolinks:load', function() {
   const close = document.querySelector(".top-bar__close");
   const dropdownBtn = document.querySelector(".button--available");
   const availableContainer = document.querySelector(".dropdown-box");
+  const chatActivate = document.querySelector(".audiocalling__chat-icon");
+  const chatContainer = document.querySelector(".group-call__container");
+  const chatMenu = document.querySelector(".group-call__chat-menu");
+  const awards__active = document.querySelector(".awards__active");
 
   bars.addEventListener("click", (e) => {
     e.preventDefault();

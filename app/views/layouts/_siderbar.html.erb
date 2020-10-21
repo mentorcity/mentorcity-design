@@ -5,15 +5,11 @@
     <%= side_bar(sub_main_meue_items) %>
     <ul class="side-bar__list">
       <li class="side-bar__item">
-        <a href="#" class="side-bar__link side-bar__link--app">
-          <img
-            src="/assets/icons/sidebar_icons/sidebar-phone.svg"
-            class="sidebar__link-icon"
-            alt="access-conn-icon"
-          />
+        <%= link_to '/users/access_connection', {class: 'side-bar__link side-bar__link--app'} do %>
+          <%= display_img({src: '/assets/icons/sidebar_icons/sidebar-phone.svg', alt: 'access-conn-icon', class: 'sidebar__link-icon' }) %>
           Access Connections
           <span>Get the app</span>
-        </a>
+        <% end %>
       </li>
     </ul>
     <%= side_bar(['Helpline']) %>

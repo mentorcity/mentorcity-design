@@ -27,6 +27,7 @@ resources :users do
     get 'event_read_more'
     get 'helpline_1'
     get 'helpline_2'
+    get 'members_list'
   end
 end
 end
