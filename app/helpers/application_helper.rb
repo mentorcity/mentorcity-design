@@ -1,6 +1,6 @@
 module ApplicationHelper
   def main_menue_items
-    [['Dashboard','/users/dashboard'],['Connections','/users/dashboard_admin_account'],['Mentors','#'],['Mentees','#'],['Groups','/users/groups'],['Awards','/users/awards_achivements']]
+    [['Dashboard','/users/dashboard'],['Connections','/users/dashboard_admin_account'],['Mentors','#'],['Mentees',no_path],['Groups','/users/groups'],['Awards','/users/awards_achivements']]
   end
   def sub_main_meue_items
     [['Courses','/users/courses'],['Events','/users/event_read_more'],['Resources','#'],['Discussions','/users/discussion']]
