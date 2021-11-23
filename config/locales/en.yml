@@ -616,3 +616,43 @@ en:
       add_subgoal: Add Subgoal
       priority: Priority
       urgent: urgent
+      setting:
+        dashboard_row: Dashboard Row 1
+        profile: Profile
+        schedule_meetings: Schedule Meeting
+        availbility_settings: Aavailbility Settings
+        profile_availability_as: Profile Setting
+        sponsors: Sponsors
+        mentoring_hours: Mentoring Hours
+        mentor_express: Mentor Express
+        dashboard_row2: Dashboard Row 2
+        award_points: Award Points
+        total_connections: Connections
+        active_courses: Active Courses
+        total_groups: Groups
+        event_attended: Events Attended
+        meeting_attended: Meetings Attended
+        goal_achived: Goals Achieved
+        dashboard_row3: Dashboard Row 3
+        connections_list: Connections List
+        upcoming_meeting_list: UpComing Meetings
+        conversations_list: Conversations
+        discussions_list: Discussions
+        courses_list: Courses
+        events_list: Events List
+        groups_list: Groups
+        resources_list: Resources
+        goals_list: Goals
+        save_setting: Save Setting
+        row1_widget_1: Row1 widget 1
+        row1_widget_2: Row1 widget 2
+        row1_widget_3: Row1 widget 3
+        row1_widget_4: Row1 widget 4
+        row2_widget_1: Row2 widget 1
+        row2_widget_2: Row2 widget 2
+        row2_widget_3: Row2 widget 3
+        row2_widget_4: Row2 widget 4
+        row3_widget_1: Row3 widget 1
+        row3_widget_2: Row3 widget 2
+        row3_widget_3: Row3 widget 3
+        row3_widget_4: Row3 widget 4
