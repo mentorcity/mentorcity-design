@@ -1,0 +1,658 @@
+en:
+  organizations:
+    meetings: Meetings
+    join-meeting-link: "Join Meeting Link"
+    speed-match: "Speed Match"
+    select-speed-match-criteria: "Select Speed Match Criteria"
+    meetings-report-for-relationships: "Meetings Report for Relationships"
+    meetings-report-for-members: "Meetings Report for Members"
+    profile-fields: "Profile Fields"
+    program-evaluation: "Program Evaluation"
+    mentoring-agreement: "Mentoring Agreement"
+    deactivate-members: "Deactivate Members"
+    group-mentoring: "Group Mentoring"
+    discussions: "Discussions"
+    resources: "Resources"
+    categories: "Categories"
+    events: "Events"
+    surveys: "Surveys"
+    email-logs: "Email Logs"
+    language-filter: "Language Filter"
+    courses: "Courses"
+    badges: "Badges"
+    announcements: "Announcements"
+    archives: "Archives"
+    statistics: "Statistics"
+    search-text: "Search Text"
+    please-select: "Please Select"
+    search: "Search"
+    group-name: "Group Name"
+    matches: "Matches"
+    member-since: "Member Since"
+    end-date: "End Date"
+    last-activity: "Last Activity"
+    all: "All"
+    matched: "Matched"
+    completed: "Completed"
+    calls: "Calls"
+    conversations: "Conversations"
+    statistics: "Statistics"
+    program-stats: "Program Stats"
+    event-stats: "Event Stats"
+    resources-stats: "Resources Stats"
+    goals: "Goals"
+    percentage-of-mentees-who: '<tr><td colspan="2"><h4>%{goals}</h4></td> </tr><tr><td class="align-right"> Percentage of mentees who have entered their mentoring goals in a relationship <br> %{relations_with_goals} mentoring relationships out of the %{total_relationships} mentoring relationships established </td><td class="align-left">%{percentage}% </td></tr>'
+    total-entered-of-goals: "Total number of goals entered"
+    total-achieved-of-goals: "Total number of goals achieved  "
+    mentoring-relationships: "Mentoring Relationships"
+    percentage-relationships-members-who: "Percentage of members who are currently in 1 or more mentoring relationships"
+    number-members-out-of-active: "%{number} members out of the %{total_users} active members"
+    percentage-mentors-members-who: "Percentage of members who currently have 1 or more mentors"
+    number-members-out-of: "%{number} members out of the %{number} active members"
+    percentage-mentees-members-who-hour: "Percentage of members who currently have 1 or more mentees"
+    number-members-out-of-mentors: "%{mentors} members out of the %{total_users} active members "
+    percentage-mentorat-members-who: "Percentage of members who have calculated their mentoring hours"
+    number-members-out-of: "%{number} members out of the %{number} active members "
+    mentoring-agreements: "Mentoring Agreements"
+    percentage-of-mentees-and: "Percentage of mentees and mentors who have completed a mentoring agreement"
+    number-mentoring-relationships-out: "%{number} mentoring relationships out of the %{number} established "
+    program-evaluations: "Program Evaluations"
+    number-of-mentees-who: "Number of mentees who have completed a program evaluation "
+    number-of-mentors-who: "Number of mentors who have completed a program evaluation "
+    meetings: "Meetings"
+    number-of-confirmed-meetings: "Number of Confirmed Meetings "
+    duration-of-confirmed-meetings: "Duration of Confirmed Meetings "
+    dont-appear-in-search: Do not appear in search results
+    dont-have-relationship-role: Do not have a relationship role
+    number-of-video-voice-calls: "Number of Video/Voice Calls  "
+    duration-of-video-voice-calls: "Duration of Video/Voice Calls  "
+    sent-by: "Sent By"
+    time: "Time"
+    status: "Status"
+    mentor-feedback: "Mentor Feedback"
+    mentee-feedback: "Mentee Feedback"
+    invited: "Invited"
+    accepted: "Accepted"
+    cancelled: "Cancelled"
+    excellent: "Excellent"
+    good: "Good"
+    okay: "Okay"
+    didn't meet: "Didn't Meet"
+    participants: "Participants"
+    start-at: "Start At"
+    end-at: "End At"
+    duration: "Duration"
+    status: "Status"
+    in-progress: "In Progress"
+    completed: "Completed"
+    conversation-between: "Conversation Between"
+    number-of-messages: "Number of Messages"
+    show-conversation: "Show Conversation"
+    events: "Events"
+    name: "Name"
+    date: "Date"
+    events-name: Event Name
+    reviewed: Reviewed
+    booked: Booked
+    read-more-clicks: "Read More Clicks"
+    register-clicks: "Register Clicks"
+    resources: "Resources"
+    read-more-clicks: "Read More Clicks"
+    main-header-colour: "Main header colour"
+    font-colour: "Font colour"
+    active-colour: "Active colour"
+    links-colour: "Links Colour"
+    email-from-name: "Email from name"
+    email-from-address: "Email from address"
+    members-can-create-events: "Members can create Events?"
+    members-can-create-resources: "Members can create Resources?"
+    members-can-create-discussions: "Members can create Discussions? "
+    logo-size: "Logo Size"
+    hide-french: "Hide French"
+    import-members: "Import Members"
+    to-set-up-new: "To set up new accounts, you can import a CSV file: "
+    the-document-columns-need: "The document columns need to be titled: First Name, Last Name, Email and Role."
+    for-the-role-column: "For the Role column, you can enter Both, Mentor, Mentee or leave it blank, if you are unsure."
+    please-note-the-column: "Please note, the column titles need to be the same as displayed above."
+    each-row-should-contain: "Each row should contain the user information for each member."
+    if-there-is-an: "If there is an error importing the file, the application will show the error messages. Please correct these and try again."
+    example: "Example:"
+    download-sample: "Download Sample"
+    import-file: "Import File"
+    import: "Import"
+    show: "Show"
+    entries: "Entries"
+    total-mentors: "Total Mentors"
+    members-since: "Members Since"
+    actions: "Actions"
+    custom-fields: "Custom Fields"
+    current-job-function: "Current Job Function"
+    years-of-experience: "Years of Experience"
+    city: "City"
+    role: "Role"
+    current-mentees: "Current Mentees"
+    max-mentees: "Max Mentees"
+    total-mentees: "Total Mentees"
+    appear-in-search-results: "Appear in Search Results"
+    current-mentors: "Current Mentors"
+    max-mentors: "Max Mentors"
+    total-mentors: "Total Mentors"
+    engagement: "Engagement"
+    role: "Role"
+    mentoring-hours: "Mentoring Hours"
+    number-of-notes-taken: "Number of Notes Taken"
+    number-of-goals: "Number of Goals"
+    number-of-goals-achieved: "Number of Goals Achieved"
+    number-of-messages-sent: "Number of Messages Sent"
+    number-of-groups: "Number of Groups"
+    number-of-discussions: "Number of %{discussions}"
+    speed-relationships: Relationships
+    speed-match-criteria: Speed Match Criteria
+    select-custom-field: Select Custom Field
+    select-custom-the-custom-field: Select the custom field and the option for the Mentees that you would like to match. Please note that once this is set, that the Mentees will only be displayed who have selected this option in their profile field.
+    custom-field: Custom Field
+    start-speed-match: Start Speed Match
+    speed-match-reset-confirm: The Speed Match results will be reset, and the new results will have the criteria selected. We will send you an email once the new results are ready. 
+    speed-match-started: Excellent, we are getting the recommended matches ready for you to review. It may take some time depending on the size of your mentoring program. We will let you know once it’s ready.
+    speed-match-recommendation: Speed Match recommendations
+    speed-match-completed: Good news, the Speed Match recommendations are now ready for you. To review, %{link}.
+    speed-match-reset: The matches have been reset. Click on Speed Match again for updated matches.
+    show-all: "Show All"
+    number-match-out-of: "match out of"
+    compatible: "Compatible"
+    reset-matches: "Reset Matches"
+    select-deselect: "Select/Deselect"
+    match: Match
+    competencies-compatability: "Competencies compatability"
+    high: "High "
+    medium: "Medium"
+    low: "Low"
+    matches: "Matches"
+    last-activity: "Last Activity"
+    notes: "Notes"
+    description: "Description"
+    actions: "Actions"
+    community-messages: "Community Messages"
+    system-generate-messages: "System Generate Messages"
+    getting-started: "Getting Started"
+    group-mentoring: "Group Mentoring"
+    matching: "Matching"
+    mentoring-meeting: "Mentoring Meeting"
+    mentoring-relationships: "Mentoring Relationships"
+    resources-section: "Resources Section"
+    scheduling: "Scheduling"
+    name: "Name"
+    subject: "Subject"
+    status: "Status"
+    tools: "Tools"
+    preview: "Preview"
+    edit: "Edit"
+    back: "Back"
+    active: "Active"
+    inactive-action: "Inactive"
+    available-tags: "Available Tags"
+    update: "Update"
+    subject: "Subject"
+    category: "Category"
+    account_information_email: "Importing members login details"
+    profile_completion_poke: "Profile completion reminder"
+    profile_completion_poke_description: "This message is sent 3, 7, and 14 days after the member registers if they haven't started filling in their profile."
+    second_welcome_message_admin_poke: "Welcome message for when the administrator is making matches "
+    second_welcome_message_admin_poke_description: "This message is received once a member registers in your program. They will receive this message when the search is turned to Inactive."
+    second_welcome_message_poke: "Welcome message for when they are able to search for a mentor and mentee "
+    second_welcome_message_poke_description: "This message is received once a member registers in your program. They will receive this message when the search is turned to Active."
+    added_to_group: "Confirm Group  "
+    added_to_group_description: "Message sent when you click on Confirm Group to let members know that they are apart of the group."
+    group_post_notify: "Send Message"
+    group_post_notify_description: "Messages that are posted in the Send Message section and sent to all group members."
+    administrator_relationship_mentee_email: "Administrator match message to mentee"
+    administrator_relationship_mentor_email: "Administrator match message to mentor  "
+    celebrate_match: "Celebrating matches message  "
+    celebrate_match_description: "This message is sent to the main program administrator once a mentor or mentee accepts a mentoring invitation."
+    mentor_invitation_declined_email: "Declined invitation by mentee with a personal message to the mentor"
+    mentee_invitation_declined_email_with_reasons: "Declined invitation by mentor to mentee with reasons"
+    mentee_invitation_declined_email: "Declined invitation by mentor with a personal message to mentee "
+    mentor_invitation_declined_email_with_reasons: "Declined invitation from mentee with reasons"
+    mentor_invite_email: "Invitation message to mentor"
+    mentoring_invitation_poke: "Invitation message to mentor reminder"
+    mentoring_invitation_poke_description: "This message is sent 3, 6, and 9 days after the invitation has been sent to the mentor."
+    mentee_followup_poke: "Mentee follow up poke  "
+    mentee_followup_poke_description: "This message is sent 14 days after the invitation has been sent if the mentee hasn't received a response from the mentor"
+    mentee_invite_email: "Mentoring invitation message "
+    mentee_matched_email: "Mentoring relationship accepted message"
+    mentoring_request_poke: "Searched for a mentor and did not send an invitation"
+    mentoring_request_poke_description: "This message is sent 3 days after a mentee conducts a search if they haven't invited someone to be their mentor."
+    mentor_invitation_withdrawn_email: "Withdrawn invitation by mentee "
+    mentee_invitation_withdrawn_email: "Withdrawn invitation by mentor "
+    join_meeting: "Join Meeting"
+    join_meeting_description: "Your meeting with %{first_name} %{last_name} has started"
+    mentoring_agreement_change_email_to_partner: "Change in Mentoring Agreement"
+    conversation: "Conversation Email"
+    conversation_description: "Conversation with {first_name} {last_name}"
+    relationship_completed_without_proccess: "End Relationship message when conducted by administrator, mentor or mentee"
+    message_approvel: "Filtered Words Message Approval"
+    message_approvel_description: "Action Required - Message Review"
+    click_checkbox_goal_notification_to_mentee: "Goal achieved notification to mentee"
+    achieved_goal_notification_to_mentor: "Goal achieved notification to mentor  "
+    goal_deadline: "Goal(s) Due"
+    relationship_matched_mail: "Goals message to mentees "
+    relationship_matched_mail_description: "Sent 10 days after the mentoring relationship has been established."
+    goal_checked_email_to_mentee: "Goals section explanation to mentees"
+    goal_checked_email_to_mentee_description: "This message is sent only if the mentee hasn't checked off a goal. It is sent 14 days after they have entered their first goal(s)."
+    half_way_relationship_poke: "Halfway through relationship message"
+    formal_relationship_established_poke: "Mentoring Agreement message to mentee"
+    formal_relationship_established_poke_description: "This message is sent 7, 14, and 21 days after the mentoring relationship has started to the mentee as a reminder to completing the mentoring agreement."
+    mmentor_relationship_status_changed_email: "Mentoring relationship status change"
+    mentee_relationship_status_changed_email: "Mentoring relationship status change to mentee"
+    mentee_relationship_status_changed_email_description: "Email will be sent mentee when relationship is completed"
+    final_evaluation_poke: "Program Evaluation message "
+    final_evaluation_poke_description: "This message is sent 7, 14, and 21 days once the mentoring relationship length has been completed."
+    final_evaluation_completed: "Program Evaluation once one person has filled it in "
+    post_notify_email: "Send Message from relationship page"
+    mentoring_relationship_poke: "Setting up initial mentoring meeting message"
+    mentoring_relationship_poke_description: "This message is sent 7, and 14 days after the relationship has started if they haven't sent a message using the Send Message section."
+    mentor_suggestion_poke: "Weekly Mentor Recommendation"
+    mentor_recommendation_description: "Mentor Recommendation"
+    new_discussion_email: "Discussion created "
+    new_comment_email: "Discussions new comment"
+    new_event_email: "Event created New event"
+    send_invitation: "Invitation Sent"
+    send_invitation_description: "Mentoring Meeting Invitation"
+    meeting_feedback: "Meeting Feedback"
+    meeting_feedback_description: "How was your meeting?"
+    invitation_accepted: "Mentoring Meeting Invitation Accepted"
+    invitation_declined: "Mentoring Meeting Invitation Declined"
+    meeting_reminder: "Mentoring Meeting Reminder "
+    meeting_cancelled: "Metoring Meeting Cancel email  "
+    manage-profile-fields: "Manage Profile Fields"
+    manage-custom-fields: "Manage Custom Fields"
+    manage-profile-fields: "Manage Profile Fields"
+    name: "Name"
+    enter-a-name-for: "Enter a name for this field. <br> (e.g. Meeting Times)"
+    description: "Description"
+    enter-a-description: "Enter a description (e.g. When are you available <br> to meet?)"
+    options: "Options"
+    insert-a-comma-after: "Insert a comma after each options (e.g. Weekends, Evenings, Lunch). Leave section blank if you would <br> like text entered (e.g a membership number)"
+    tips: "Tips"
+    enter-how-you-would: "Enter how you would like to remind your members to complete this field (e.g. Enter <br> your meeting times)"
+    profile: "Profile"
+    report: "Report"
+    role: "Role"
+    mandatory-field: "Mandatory Field"
+    appear-in-search: "Appear in Search"
+    admin-only: "Admin Only"
+    order: "Order"
+    single-select: "Single Select"
+    allow-input: "Allow Input"
+    basic-field: "Basic Field"
+    search-rules: "Search Rules"
+    if-the-member-selects: "If the member selects: "
+    then-mentors-will-be: "Then Mentors will be displayed in search results who have selected:"
+    then-mentees-will-be: "Then Mentees will be displayed in search results who have selected:"
+    parent: "Parent"
+    nan: "nan"
+    parent-options: "Parent Options"
+    role: "Role:"
+    please-select-a-role: "Please select a role"
+    order: "Order"
+    please-select-the-order: "Please select the order that you would like this field displayed in"
+    would-you-like-this: "Would you like this field displayed in your members public profile?"
+    would-you-like-to: "Would you like to make it mandatory for your members to complete this field?"
+    would-you-like-in-reports: " Would you like this field included in the downloadable reports?"
+    would-you-like-this-in-search: "Would you like this field to be included in the Find Mentor and Find Mentee search?"
+    would-you-like-admin-only: " Would you like this field only to be displayed for administrators? Mentees and mentors won't see this field on their profile, and they won't be able to select options."
+    would-you-like-your-single-select: "Would you like your members to only select one option?"
+    would-you-like-your-allow-input: "Would you like your members to enter their own options - if they aren't included in the drop-down menu?"
+    would-you-like-to-basic: "Would you like to make it basic field for your members?"
+    is-this-a-child: "is this a child?"
+    cancel: "Cancel"
+    update-fields: "Update Fields"
+    add-new-field: "Add New Field"
+    questions: "Questions"
+    edit-the-questions-that: "Edit the questions that you would like to change. "
+    options: "Options"
+    insert-a-comma-after-agreement: "Insert a comma after each option (e.g always, sometimes, never). Leave section blank if you would like text entered(e.g i have enhanced my soft skills as a result of this mentoring program.)"
+    add-question: "Add Question"
+    save-questions: "Save Questions"
+    questions: "Questions"
+    edit-the-questions-that: "Edit the questions that you would like to change. "
+    options: "Options"
+    this-field-can-only: "This field can Only be used for the Length of Relationship. If you have a set relationship length then you can insert it here (e.g., 6) for a 6-month mentoring relationship. Or you can allow your members to select the length by providing options (e.g., 0,1,2,3,4,5,6). Please note that a 0 indicates an ongoing relationship length"
+    add-question: "Add Question"
+    save-questions: "Save Questions"
+    deactivate-members: "Deactivate Members"
+    to-deactivate-accounts-you: "To deactivate accounts, you can import a CSV file. "
+    the-document-column-needs: "The document column needs to be titled: <strong>Email </strong>."
+    each-row-should-contain: "Each row should contain the email address for each member."
+    if-there-is-an: "If there is an error importing the file, the application will show the error messages. Please correct these and try again."
+    example: "Example:"
+    download-sample: "Download Sample"
+    import-file: "Import File"
+    deactivate: "Deactivate"
+    progressing-well: "Progressing Well"
+    may-need-attention: "May Need Attention"
+    requires-attention: "Requires Attention"
+    inactive: "Inactive"
+    closed: "Closed"
+    group-name: "Group Name"
+    group-status: "Group Status"
+    group-members: "Group Members"
+    last-post-date: "Last Post Date"
+    created-at: "Created At"
+    created-on: Created On
+    create-a-group: "Create a Group"
+    event-types: "Event Types"
+    resources-types: "Resources Types"
+    add-more-event-types: "Add More Event Types"
+    colour: "Colour"
+    add-event-type: "Add Event Type"
+    update-event-types: "Update Event Types"
+    add-more-resource-types: "Add More Resource Types"
+    position: "Position"
+    add-resource-type: "Add Resource Type"
+    update-resource-types: "Update Resource Types"
+    survey-name: "Survey Name"
+    survey-link: "Survey Link"
+    survey-questions: "Survey Questions"
+    survey-completed: "Survey Completed"
+    create-a-survey: "Create a Survey"
+    emails-and-notifications-sent: "Emails and Notifications Sent"
+    enter-a-member-to: "ENTER A MEMBER TO SEE THE NOTIFICATIONS THAT WERE SENT TO THEM"
+    show-all: "Show All"
+    name: "Name"
+    sent-to: "Sent To"
+    sent-time: "Sent Time"
+    filtered-messages: "Filtered Messages"
+    filtered-words: "Filtered Words"
+    approve: "Approve"
+    sent-by: "sent by"
+    add-word: "Add Word"
+    update-words: "Update Words"
+    themes: "Themes"
+    modules: "Modules"
+    created-at: "Created At"
+    create-a-theme: "Create a Theme"
+    themes-and-modules: "Themes and Modules"
+    themes-title: "Themes Title"
+    theme-icon: "Theme Icon"
+    theme-colour: "Theme Colour"
+    badge-icon-text: "Badge Icon Text"
+    meta-tags: "Meta Tags"
+    module-title: "Module Title"
+    description: "Description"
+    add-module: "Add Module"
+    save: "Save"
+    add-new-modules-in: "Add new modules in"
+    title: "Title"
+    activities: "Activities"
+    actions: "Actions"
+    edit: "Edit"
+    delete: "Delete"
+    activites: "Activities"
+    activitiy-title: "Activity Title"
+    activity-video-link: "Activity Video Link"
+    survey: "Survey"
+    badges: "Badges"
+    add-activity: "Add Activity"
+    name: "Name"
+    badges-and-medals: "Badges and Medals"
+    medal: "Medal"
+    rule: "Rule"
+    points-required-5000: "Points Required 5000"
+    points-required-2500: "Points Required 2500"
+    points-required-500: "Points Required 500"
+    badge: "Badge"
+    rule-completed-program-evaluations: "Rule: Completed Program Evaluations in 5 mentoring relationships."
+    rule-once-they-have: "Rule: Once they have sent 10 messages through the send message section."
+    rule-shared-2-resources.: "Rule: Shared 2 resources."
+    rule-average-rating-of: "Rule: Average rating of 4 to 5 in 3 evaluations completed by their mentors and mentees."
+    rule-made-5-comments: "Rule: Made 5 comments in the discussions section that are more than 200 characters in length."
+    rule-completed-3-evaluations: "Rule: Completed 3 evaluations and/or mentoring agreements."
+    rule-invited-a-mentor: "Rule: Invited a mentor or mentee and had the invitation accepted."
+    rule-for-100%-profile: "Rule: For 100% profile completion."
+    save: "Save"
+    no-announcement: No Announcements created yet.
+    announcement-description: "Announcement Description "
+    link: "Link"
+    created-at: "Created At"
+    create-an-announcement: "Create an Announcement"
+    description-english: "Description English"
+    description-french: "Description French"
+    open-in: "Open In"
+    same-window: "Same Window"
+    new-window: "New Window"
+    attachment: "Attachment"
+    archived-discussions: "Archived Discussions"
+    archived-resources: "Archived Resources"
+    participants: "Participants"
+    save-announcement: Save Announcement
+
+
+
+
+
+
+
+    sample-invitation-message: "Sample Invitation Message"
+    invite-message-body: "<p><strong>Send the following email message and link to the people who you would like to join:</strong></p>
+        <p class='inviting-member-link'>It gives me great pleasure to invite you to participate in %{org_name}'s MentorCity. To sign up, please click on the following link %{invite_link}</p>
+        <p> %{org_name}'s MentorCity is an on-line mentoring matching program that connects you to meaningful mentoring relationships. The premise is that throughout your life and career,
+        there are times when you can benefit from the advice, guidance and support of a mentor.
+        There are also times when you can share your expertise and experiences to guide mentees in the right direction.</p> <p>Let us know if you have any questions. 
+        We look forward to seeing you on MentorCity!</p>"
+
+    important-for-the-best: "<p><strong>Important:</strong> For the best user experience, please use Google Chrome, Microsoft Edge Chromium version, or Safari. The site is also compatible with mobile devices using Google Chrome and Safari. And, you can download our mobile apps.</p>"
+    if-people-are-registering: "<p> <strong> If people are registering who haven’t been invited, you can disable their account and change the link by clicking %{link} </strong></p>"
+    edit-organization: Edit Organization
+    prior-to-import-message: "Prior to Import Message"
+    import-page-body: "<p>We are very pleased to announce that we have started an on-line mentoring program. We would be honoured to have you join us.</p>
+        <p>
+          You will be receiving a 'no-reply' email from MentorCity on <strong>(enter date)</strong> with login instructions. The following provides an overview of how to get started and the timelines:
+        </p>
+        <ul>
+          <li>
+            <p>
+              Login and build your profile<br /><br />
+              Due date:
+            </p>
+          </li>
+          <li>
+            <p>
+              Search for a mentor or mentee<br/><br />
+              Start Date:
+            </p>
+          </li>
+        </ul>
+        <p>
+          All instructions are easy to follow and the registration process has been streamlined to minimize the amount of time required. It’s really simple!
+        </p>
+
+        <p>
+          If you have any questions please feel free to contact us.
+        </p>"
+    french-text: "French Text"
+    send-this-email-to: "Send this email to:"
+    message: "Message"
+    create-message: Create Message
+    sent: "Sent"
+    not-sent: "Not Sent"
+    all: "All"
+    custom-fields: "Custom Fields"
+    queued: "Queued"
+    stats: "stats"
+    reviewed-resources: "Reviewed Resources"
+    name: "Name"
+    clicks: "Clicks"
+    n'apparait-pas-dans-la-recherche: "N'apparait pas dans la recherche des résultats Ne pas avoir un rôle relationnel "
+    ne-pas-avoir-un: "Ne pas avoir un rôle relationnel"
+    booked-events: "Booked Events"
+    name: "Name"
+    registration-time: "Registration Time"
+    profile-fields: "Profile Fields"
+    manage-profile-fields: "Manage Profile Fields"
+    show-employment-in-profile: "Show Employment in Profile"
+    show-competencies-in-profile: "Show Competencies in Profile"
+    incentives-and-rewards-points: "<strong> Incentives and rewards </strong> <br> <span> (points, medals and badges) </span>"
+    profile-field: "Profile Field"
+    enter-a-name-for: "Enter a name for this field. Only 1 or <br> 2 words allowed (e.g. Meeting Times)"
+    show-in-profile: "Show in Profile"
+    meeting-locations: "Meeting Locations"
+    skills: "Skills"
+    development-areas: "Development Areas"
+    gender: "Gender"
+    language: "Language"
+    three-words: "Three Words"
+    meeting-styles: "Meeting Styles"
+    summary: "Summary"
+    social-media-1: "Social Media 1"
+    social-media-2: "Social Media 2"
+    select-deselect-country: "Select/Deselect(Country,City,State)"
+    country: "Country"
+    city: "City"
+    state: "State"
+    users-can-choose-to: "Users can choose to be both %{mentor} and %{mentee} at same time"
+    industry: "Industry"
+    function: "Job Function"
+    update-fields: "Update Fields"
+    memebers: "memebers"
+    add-to-group: "Add to Group"
+    account-settings: "Account Settings"
+    only-for-administrators: "Only for administrators:"
+    surveys: "Surveys"
+    resources: "Resources"
+    document-name: "Document Name"
+    viewed: "Viewed"
+    events: "Events"
+    event-name: "Event Name"
+    reviewed: "Reviewed"
+    booked: "Booked"
+    searches: "%{name}'s Searches %{count}"
+    relationships: "Relationships"
+    relationship-status: "Relationship Status"
+    matched: "Matched"
+    withdrawn: "Withdrawn"
+    invited: "Invited"
+    declined: "Declined"
+    mentoring-agreement: "Mentoring Agreement"
+    program-evaluation: "Program Evaluation"
+    number-of-hours: "Number of Hours"
+    number-of-meeting: "Number of Meeting"
+    created-on: "Created On"
+    started-on: "Started On"
+    mentoring-request: "Mentoring Request"
+    mentoring-relationship: "Mentoring Relationship"
+    meetings: "Meetings"
+    sent-by: "Sent By"
+    time: "Time"
+    status: "Status"
+    mentor-feedback: "Mentor Feedback"
+    mentee-feedback: "Mentee Feedback"
+    calls: "Calls"
+    conversations: "Conversations"
+    conversation-with: "Conversation with"
+    number-of-messages: "Number of Messages"
+    show-conversation: "Show Conversation"
+    groups: "Groups"
+    french-name: "French Name"
+    french-description: "French Description"
+    group-status: "Group Status"
+    edit-survery-heading: "edit-survery-heading"
+    survey-name: "Survey Name"
+    questions: "Questions"
+    edit-the-questions-that: "Edit the questions that you would like to change."
+    options: "Options"
+    attachment: "Attachment"
+    required: "Required"
+    add-question: "Add Question"
+    save-survey: "Save Survey"
+    no-survey-created-yet.: "No survey created yet."
+    mentor_canada_message: "Welcome to the E-Mentoring Platform brought to you by:"
+    dashboard:
+      profile: Profile
+      complete: Complete
+      edit: Edit
+      view: View
+      schedule_meetings: Schedule Meetings
+      upcoming: Upcoming
+      meetings: " %{count} Meetings"
+      new: New
+      meetings_availability: Meetings Availability
+      weekdays: Mo, Tu, Th, Fr
+      weektimes: 7:00 AM - 10:00 PM 
+      timezone: (UTC+01:00) Europe - London
+      google_calender: Your Google Calendar is connected to Scheduler.
+      profile_availability: Profile Availability as
+      currently_availbale_mentor: You are currently availbale as a Mentor.
+      mentor: Mentor
+      mentee: Mentee
+      cancel: Cancel
+      my_connections: My connections
+      upcoming_eetings: Upcoming Meetings
+      my_goals: My Goals
+      change_settings: Change Settings
+      new_goal: Set a new Goal
+      sponsors: Sponsors
+      events: Events
+      conversations: Conversations
+      discussions: Discussions
+      courses: Courses
+      resources: Resources
+      meetings:   Meetings
+      points: Points
+      save: Save
+      scheduled_meetings: Scheduled Meetings
+      go_to_dashboard: Go To Dashboard
+      re-schedule: Re-Schedule
+      available_for_mentoring_meetings: Select the days and times that you are typically available for mentoring meetings.
+      meeting_formats: Meeting Formats - How would you like to meet? Would you like to have some meetings in-person and some over the phone?
+      sync_calendar: Sync Calendar
+      available_times: Available times
+      from: From
+      to: To
+      subgoals_that_will: Subgoals that will get you there and a due date for them.
+      relationship: Relationship
+      goal: Goal
+      due_date: Due Date
+      add_subgoal: Add Subgoal
+      priority: Priority
+      urgent: urgent
+      setting:
+        dashboard_row: Dashboard Row 1
+        profile: Profile
+        schedule_meetings: Schedule Meeting
+        availbility_settings: Aavailbility Settings
+        profile_availability_as: Profile Setting
+        sponsors: Sponsors
+        mentoring_hours: Mentoring Hours
+        mentor_express: Mentor Express
+        dashboard_row2: Dashboard Row 2
+        award_points: Award Points
+        total_connections: Connections
+        active_courses: Active Courses
+        total_groups: Groups
+        event_attended: Events Attended
+        meeting_attended: Meetings Attended
+        goal_achived: Goals Achieved
+        dashboard_row3: Dashboard Row 3
+        connections_list: Connections List
+        upcoming_meeting_list: UpComing Meetings
+        conversations_list: Conversations
+        discussions_list: Discussions
+        courses_list: Courses
+        events_list: Events List
+        groups_list: Groups
+        resources_list: Resources
+        goals_list: Goals
+        save_setting: Save Setting
+        row1_widget_1: Row1 widget 1
+        row1_widget_2: Row1 widget 2
+        row1_widget_3: Row1 widget 3
+        row1_widget_4: Row1 widget 4
+        row2_widget_1: Row2 widget 1
+        row2_widget_2: Row2 widget 2
+        row2_widget_3: Row2 widget 3
+        row2_widget_4: Row2 widget 4
+        row3_widget_1: Row3 widget 1
+        row3_widget_2: Row3 widget 2
+        row3_widget_3: Row3 widget 3
+        row3_widget_4: Row3 widget 4
